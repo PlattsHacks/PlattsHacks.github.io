@@ -53,3 +53,7 @@ Our boilerplate is written entirely in [Jekyll][jekyll], which GitHub automatica
 - We can't accept custom plugins because it's not supported by [GitHub Pages][github-pages].
 - If adding any external images or components, please ensure you have the correct permission to use them.
 - We advise creating a GitHub issue first explaining the issue.
+
+## Dev guide
+
+Take a look at [this](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) to set up Ruby and run the Jekyll server on the local machine. 
