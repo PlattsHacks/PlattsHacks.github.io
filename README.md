@@ -15,36 +15,6 @@ Advantages:
 [github-pages]: https://pages.github.com
 [my-mlh]: https://my.mlh.io
 
-## Getting Started
-
-1. Create a [GitHub][create-account] account if you haven't already.
-2. Fork this repository to your own account. [Click here to fork this repo][fork-repo].
-3. Edit [`_config.yml`][config] to configure for your own hackathon website.
-4. That's it - you should be able to access at `https://[github username].github.io/mlh-hackathon-boilerplate/`
-
-[create-account]: https://github.com/join
-[fork-repo]: https://github.com/MLH/mlh-hackathon-boilerplate/fork
-
-### Setting up a custom domain
-
-Want to configure for your own custom domain? Great! Through our excellent partners [Domain.com][domain-com], Major League Hacking is offering free domains to student hackathon organizers. Reach out to [hi@mlh.io][email-mlh] to obtain your free coupon code.
-
-1. Register your domain.
-2. Update the domain `www` to `CNAME [github username].github.io`
-3. Update the domain `@` to `A 192.30.252.153` and `A 192.30.252.154`
-4. Update the `CNAME` in your GitHub fork of `mlh-hackathon-boilerplate` to your new domain (i.e. `examplehacks.com`)
-
-[Reference: GitHub - Setting up an apex domain][github-apex-domain]
-
-[domain-com]: https://domain.com/mlh
-[email-mlh]: mailto:hi@mlh.io
-[github-apex-domain]: https://help.github.com/articles/setting-up-an-apex-domain/
-
-### Setting up SSL
-
-We'd highly recommend looking into [Cloudflare][cloudflare] for SSL with your domain. It's compatible with [GitHub Pages][github-pages] and this project.
-
-[cloudflare]: https://cloudflare.com
 
 ## Contributing
 
@@ -54,6 +24,4 @@ Our boilerplate is written entirely in [Jekyll][jekyll], which GitHub automatica
 - If adding any external images or components, please ensure you have the correct permission to use them.
 - We advise creating a GitHub issue first explaining the issue.
 
-## Dev guide
-
-Take a look at [this](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) to set up Ruby and run the Jekyll server on the local machine. 
+Take a look at [this](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) to set up Ruby and run the Jekyll server on the local machine.
