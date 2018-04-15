@@ -73,6 +73,7 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 110vh;
+  overflow: hidden;
 }
 
 .hero::after {
@@ -88,6 +89,15 @@ section {
 .hero > * {
   position: relative;
   z-index: 10;
+}
+
+#particles-js {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 11;
 }
 
 .hero img {
@@ -122,18 +132,20 @@ section {
 
 .hero .buttons {
   margin: 40px 0;
+  z-index: 12;
+  text-align: center;
 }
 
 .hero .buttons a {
   background: #fff;
-  border: 10px solid #0F2C34;
+  border: 3px solid #0F2C34;
   border-radius: 40px;
   color: #0F2C34;
   display: inline;
   font-family: Montserrat;
-  font-size: 24px;
-  font-weight: 700;
-  padding: 10px 70px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 50px;
   text-decoration: none;
   text-transform: uppercase;
 }
