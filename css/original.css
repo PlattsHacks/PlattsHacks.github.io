@@ -81,24 +81,25 @@ section {
 }
 
 .hero .wrapper h1 {
-  background: #fff;
-  background: rgba(255, 255, 255, .3);
   display: inline-block;
   font-size: 60px;
   font-weight: 800;
   letter-spacing: -2px;
   padding: 10px 30px;
+  color: #fff;
 }
 
 .hero .wrapper h2 {
   font-size: 28px;
   font-weight: 200;
+  color: #fff;
 }
 
 .hero .wrapper h3 {
   font-size: 20px;
   font-weight: 200;
   padding-bottom: 35px;
+  color: #fff;
 }
 
 .hero .buttons {
