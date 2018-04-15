@@ -18,7 +18,7 @@
 }
 
 body {
-  background-color: #820933;
+  background-color: #fff;
 }
 
 section {
@@ -273,9 +273,14 @@ section {
 }
 
 .location .map-container {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
 }
 
 .location .map-container iframe {
+  display: block;
+  margin: 0 auto;
 }
 
 /*
@@ -283,7 +288,7 @@ section {
  */
 
 .footer {
-  background-color: #820933;
+  background-color: #333;
   color: #fff;
   padding: 30px 0;
 }
