@@ -69,7 +69,7 @@ section {
 .hero {
   position: relative;
   background-color: #D44B7D;
-  background-image: url('/images/background.jpg');
+  background-image: url('/images/platts-background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 110vh;
