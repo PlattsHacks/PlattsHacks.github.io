@@ -28,6 +28,24 @@ body {
 section {
   overflow-x:hidden;
 }
+/*
+ * Nav bar
+ */
+
+.navbar {
+  background-color: #fff;
+}
+
+.navbar::before {
+  background: #e7e7e7;
+  bottom: 0;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
 
 /*
  * Trust Badge
