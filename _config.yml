@@ -33,7 +33,7 @@ event:
   name:        "PlattsHacks"
   description: "PlattsHacks is a hackathon hosted at SUNY Plattsburgh. One of the best hack in Upstate New York"
   date:        "15 & 16 March 2019"
-  location:    "Plattsburgh, NY, United States"
+  location:    "Plattsburgh, NY US"
 
   trust_badge:
     year:   "2018"  # season year
@@ -51,7 +51,7 @@ event:
 
   about:
     description: >
-      Example Hacks is a hackathon hosted at The University of Example.
+      PlattsHacks is a hackathon hosted at State University of New York at Plattsburgh.
       This is your opportunity to describe your event, what to expect, where it is & anything unique to your event.
       Keep it straightforward, don't make it too long.
 
