@@ -4,11 +4,7 @@
 */
 
 /* Open Sans Google Font */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,700);
-
-
-/* Montserrat Google Font */
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 /*
  * Primary Blue: #44D5FF;
@@ -17,12 +13,12 @@
  */
 
 * {
-  font-family: 'Open Sans';
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
 }
 
 body {
-  background-color: #416165;
+  background-color: #820933;
 }
 
 section {
@@ -142,7 +138,7 @@ section {
   border-radius: 40px;
   color: #0F2C34;
   display: inline;
-  font-family: Montserrat;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 600;
   padding: 10px 50px;
@@ -201,7 +197,7 @@ section {
 }
 
 .info .item h1 {
-  font-family: 'Montserrat';
+  font-family: 'Roboto', sans-serif;
   font-size: 45px;
   font-weight: 700;
   margin: 20px 0;
@@ -227,13 +223,13 @@ section {
 }
 
 .faq h1 {
-  font-family: 'Montserrat';
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   margin: 30px 0;
 }
 
 .faq .question h2 {
-  font-family: 'Montserrat';
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 24px;
 }
@@ -256,11 +252,38 @@ section {
 }
 
 /*
+ * Sponsors Section
+ */
+
+.sponsors {
+  background-color: #fff;
+}
+
+/*
+ * Location Section
+ */
+
+.location {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.location h1 {
+  padding: 30px 0;
+}
+
+.location .map-container {
+}
+
+.location .map-container iframe {
+}
+
+/*
  * Footer Section
  */
 
 .footer {
-  background-color: #416165;
+  background-color: #820933;
   color: #fff;
   padding: 30px 0;
 }
@@ -271,7 +294,7 @@ section {
 }
 
 .footer h3 {
-  font-family: 'Montserrat';
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;

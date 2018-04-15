@@ -47,13 +47,11 @@ event:
           client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
           redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
       - text: "Sponsor"
-        href: "mailto:lnguy005@plattsburgh.edu"
+        href: "mailto:plattshack@gmail.com"
 
   about:
     description: >
       PlattsHacks is a hackathon hosted at State University of New York at Plattsburgh.
-      This is your opportunity to describe your event, what to expect, where it is & anything unique to your event.
-      Keep it straightforward, don't make it too long.
 
   # Info Sections
   info:
