@@ -50,6 +50,9 @@ section {
 
 .hero {
   background-color: #D44B7D;
+  background-image: url('/images/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: 110vh;
 }
 
