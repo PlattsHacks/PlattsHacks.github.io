@@ -44,12 +44,12 @@ section {
   z-index: 10000;
 }
 
-/* 
+/*
  * Hero Section
  */
 
 .hero {
-  background-color: #F5699C;
+  background-color: #D44B7D;
   min-height: 110vh;
 }
 
@@ -118,7 +118,7 @@ section {
   margin-right: 10px;
 }
 
-/* 
+/*
  * About Section
  */
 
