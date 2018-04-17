@@ -204,6 +204,10 @@ section {
     width: 100%;
 }
 
+.info .item .row {
+    min-height: 300px;
+}
+
 .info .item .row:nth-child(2n+1) .col-8 {
     background-color: #ffaf87;
 }
@@ -235,7 +239,7 @@ section {
   margin: 20px 0;
   color: #fff;
   border-bottom: 2px solid #fff;
-  padding: 10px 0;
+  padding: 25px 0;
   max-width: 20%;
   letter-spacing: 0.2em;
 }
