@@ -7,7 +7,12 @@ layout: default
 <section class="about">
     <div class="container">
         <div class="col-xs-12 col-sm-offset-1 text-center">
-            {{ site.event.about.description | markdownify }}
+            <h1>
+                {{ site.event.about.header }}
+            </h1>
+            <p>
+                {{ site.event.about.description | markdownify }}
+            </p>
         </div>
     </div>
 </section>
