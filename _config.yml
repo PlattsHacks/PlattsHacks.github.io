@@ -32,7 +32,7 @@ seo:
 event:
   name:        "PlattsHacks"
   description: "PlattsHacks is a hackathon hosted at SUNY Plattsburgh. One of the best hack in Upstate New York"
-  date:        "15 & 16 March 2019"
+  date:        "Date: Subject to change"
   location:    "Plattsburgh, NY US"
 
   trust_badge:
@@ -51,7 +51,7 @@ event:
 
   about:
     description: >
-      PlattsHacks is a hackathon hosted at State University of New York at Plattsburgh.
+      PlattsHacks is a hackathon hosted at State University of New York at Plattsburgh. Join us for 24 hours of programming, music, great food, and professor presentations. 
 
   # Info Sections
   info:
@@ -59,15 +59,15 @@ event:
       - image: "images/image1.png"
         title: "LEARN."
         description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
+          Learn how to tackle complex problems with your team or attend some professor presentations.
       - image: "images/image2.png"
         title: "BUILD."
         description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
+          Work together with your team to build the best application in limited time; the best teams will win prizes.
       - image: "images/image3.png"
         title: "SHARE."
         description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
+          Present your creation or share a slice of pizza with someone from another school.
 
   # Frequently asked questions.
   faq:
