@@ -19,29 +19,24 @@ layout: default
 
 <section class="info">
     <div class="items row">
-        {% for section in site.event.info.sections %}
-            <div class="item">
-                <div class="row">
-                {% if section.position == "right" %}
-                    <div class="col-4">
-                        <img src="{{ section.image }}" />
-                    </div>
-                    <div class="col-8">
-                        <h1>{{ section.title }}</h1>
-                        <p>{{ section.description }}</p>
-                    </div>
-                {% elsif section.position == "left" %}
-                    <div class="col-8">
-                        <h1>{{ section.title }}</h1>
-                        <p>{{ section.description }}</p>
-                    </div>
-                    <div class="col-4">
-                        <img src="{{ section.image }}" />
-                    </div>
-                {% endif %}
+        <div class="item">
+            <div class="row">
+                <div class="col-8">
+                    <h1>{{ site.event.info.section_1.title }}</h1>
+                    <p>{{ site.event.info.section_1.description }}</p>
+                </div>
+                <div class="col-4">
+                    <h1>{{ site.event.info.section_2.title }}</h1>
+                    <p>{{ site.event.info.section_2.description }}</p>
                 </div>
             </div>
-        {% endfor %}
+            <div class="row">
+                <div class="col">
+                    <h1>{{ site.event.info.section_3.title }}</h1>
+                    <p>{{ site.event.info.section_3.description }}</p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 

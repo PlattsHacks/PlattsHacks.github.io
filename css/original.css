@@ -204,15 +204,15 @@ section {
     width: 100%;
 }
 
-.info .item:nth-child(2n+1) .col-8 {
+.info .item .row:nth-child(2n+1) .col-8 {
     background-color: #ffaf87;
 }
 
-.info .item:nth-child(2n+2) .col-8 {
+.info .item .row:nth-child(2n+1) .col-4 {
     background-color: #ff5666;
 }
 
-.info .item:nth-child(2n+3) .col-8 {
+.info .item .row:nth-child(2n+2) .col {
     background-color: #539987;
 }
 
@@ -224,6 +224,10 @@ section {
     padding: 30px 50px;
 }
 
+.info .item .row .col {
+    padding: 40px 80px 80px;
+}
+
 .info .item h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 1.75em;
@@ -231,7 +235,7 @@ section {
   margin: 20px 0;
   color: #fff;
   border-bottom: 2px solid #fff;
-  padding: 20px 0;
+  padding: 10px 0;
   max-width: 20%;
   letter-spacing: 0.2em;
 }
