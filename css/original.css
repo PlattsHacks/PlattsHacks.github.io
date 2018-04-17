@@ -134,17 +134,17 @@ section {
 }
 
 .hero .buttons a {
-  background: #fff;
-  border: 3px solid #0F2C34;
-  border-radius: 40px;
-  color: #0F2C34;
-  display: inline;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  padding: 10px 50px;
-  text-decoration: none;
-  text-transform: uppercase;
+    background: transparent;
+    border: 3px solid #fff;
+    color: #fff;
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 10px 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
 
 .hero .buttons a:hover,
