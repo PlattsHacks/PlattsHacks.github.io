@@ -97,6 +97,9 @@ event:
       answer: >
         Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
 
+  sponsors:
+    header: "Sponsors are coming soon!"
+
   # This is the message you'll receive once you've registered.
   register:
     message: >
