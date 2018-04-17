@@ -111,6 +111,7 @@ section {
   letter-spacing: -2px;
   padding: 10px 30px;
   color: #fff;
+  text-transform: uppercase;
 }
 
 .hero .wrapper h2 {
@@ -162,18 +163,27 @@ section {
  */
 
 .about {
-  border-width: 15px 0;
-  background-color: #fff;
-  padding: 130px 0;
+  background-color: #21b2a6;
+  padding: 70px 0 90px;
   position: relative;
 }
 
+.about h1 {
+  color: #c7ebe8;
+  padding: 30px 0;
+  border-bottom: 2px solid rgba(0,0,0,0.125);
+  text-transform: uppercase;
+  max-width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
 .about p {
-  color: #0F2C34;
-  font-weight: 600;
-  font-size: 22px;
+  color: #c7ebe8;
+  font-size: 1.3em;
   line-height: 1.6em;
   letter-spacing: -.3px;
+  padding: 18px 30px 0 30px;
 }
 
 .about p span {
@@ -187,28 +197,57 @@ section {
 
 .info {
   background-color: #fff;
-  margin-top: 15px;
-  padding: 100px 0;
   position: relative;
 }
 
 .info .item {
-  padding: 20px;
+    width: 100%;
+}
+
+.info .item:nth-child(2n+1) .col-8 {
+    background-color: #ffaf87;
+}
+
+.info .item:nth-child(2n+2) .col-8 {
+    background-color: #ff5666;
+}
+
+.info .item:nth-child(2n+3) .col-8 {
+    background-color: #539987;
+}
+
+.info .item .row .col-8 {
+    padding: 50px 80px;
+}
+
+.info .item .row .col-4 {
+    padding: 30px 50px;
 }
 
 .info .item h1 {
   font-family: 'Roboto', sans-serif;
-  font-size: 45px;
+  font-size: 1.75em;
   font-weight: 700;
   margin: 20px 0;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  padding: 20px 0;
+  max-width: 20%;
 }
 
 .info .item img {
   max-width: 220px;
+  margin: 0 auto;
+  display: block;
 }
 
 .info .item p {
-  font-size: 20px;
+    font-size: 0.8em;
+    font-weight: 600;
+    letter-spacing: 0.25em;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: #fff;
 }
 
 /*

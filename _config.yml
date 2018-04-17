@@ -57,15 +57,18 @@ event:
   # Info Sections
   info:
     sections:
-      - image: "images/image1.png"
+      - position: "left"
+        image: "images/image1.png"
         title: "LEARN."
         description: >
           Learn how to tackle complex problems with your team or attend some professor presentations.
-      - image: "images/image2.png"
+      - position: "right"
+        image: "images/image2.png"
         title: "BUILD."
         description: >
           Work together with your team to build the best application in limited time; the best teams will win prizes.
-      - image: "images/image3.png"
+      - position: "left"
+        image: "images/image3.png"
         title: "SHARE."
         description: >
           Present your creation or share a slice of pizza with someone from another school.
