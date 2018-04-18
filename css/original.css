@@ -208,11 +208,11 @@ section {
     min-height: 300px;
 }
 
-.info .item .row:nth-child(2n+1) .col-6 {
+.info .item .row:nth-child(2n+1) .first-col {
     background-color: #ffaf87;
 }
 
-.info .item .row:nth-child(2n+1) .col-6 {
+.info .item .row:nth-child(2n+1) .second-col {
     background-color: #ff5666;
 }
 
@@ -220,12 +220,9 @@ section {
     background-color: #539987;
 }
 
-.info .item .row .col-6 {
+.info .item .row .first-col,
+.info .item .row .second-col {
     padding: 40px 80px;
-}
-
-.info .item .row .col-6 {
-    padding: 30px 50px;
 }
 
 .info .item .row .col {
