@@ -209,15 +209,15 @@ section {
 }
 
 .info .item .row:nth-child(2n+1) .first-col {
-    background-color: #ffaf87;
+    background-color: #37718e;
 }
 
 .info .item .row:nth-child(2n+1) .second-col {
-    background-color: #ff5666;
+    background-color: #a64253;
 }
 
 .info .item .row:nth-child(2n+2) .col {
-    background-color: #539987;
+    background-color: #212d40;
 }
 
 .info .item .row .first-col,
