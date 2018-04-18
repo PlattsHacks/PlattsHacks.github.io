@@ -208,11 +208,11 @@ section {
     min-height: 300px;
 }
 
-.info .item .row:nth-child(2n+1) .col-8 {
+.info .item .row:nth-child(2n+1) .col-6 {
     background-color: #ffaf87;
 }
 
-.info .item .row:nth-child(2n+1) .col-4 {
+.info .item .row:nth-child(2n+1) .col-6 {
     background-color: #ff5666;
 }
 
@@ -220,11 +220,11 @@ section {
     background-color: #539987;
 }
 
-.info .item .row .col-8 {
+.info .item .row .col-6 {
     padding: 40px 80px;
 }
 
-.info .item .row .col-4 {
+.info .item .row .col-6 {
     padding: 30px 50px;
 }
 
