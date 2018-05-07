@@ -2,19 +2,22 @@
 <html>
   {% include head.html %}
 
-  <body{% if page.custom_class %} class="{{ page.custom_class }}"{% endif %}>
-    {% include trust_badge.html %}
-    {% include navbar.html %}
+    <body{% if page.custom_class %} class="{{ page.custom_class }}"{% endif %}>
+        <div id="wrapper">
 
-    {{ content }}
+            {% include trust_badge.html %}
+            {% include navbar.html %}
 
-    <section class="footer">
-      <div class="container text-center">
-        <h3>Made with <span style="color: #e25555;">&hearts;</span> by the Plattshacks team</h3>
-      </div>
-    </section>
+            {{ content }}
 
-    {% include scripts.html %}
-    {% include analytics/google_analytics.html ga_id=site.tracking.google_analytics %}
-  </body>
+            <section class="footer">
+                <div class="container text-center">
+                    <h3>Made with <span style="color: #e25555;">&hearts;</span> by the Plattshacks team</h3>
+                </div>
+            </section>
+        </div>
+
+        {% include scripts.html %}
+        {% include analytics/google_analytics.html ga_id=site.tracking.google_analytics %}
+    </body>
 </html>

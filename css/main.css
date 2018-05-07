@@ -43,6 +43,13 @@ section {
   z-index: 1;
 }
 
+#menu-mobile-button {
+    color: rgba(0,0,0,.7);
+    padding-right: 15px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
 /*
  * Trust Badge
  */

@@ -18,5 +18,16 @@
                 });
             }
         });
+
+
+        $("#navbar").mmenu({
+        	extensions: ["fx-menu-slide", "pagedim", "theme-dark", "position-right"]
+        });
+        var API = $("#navbar").data("mmenu");
+
+        $("#menu-mobile-button").click(function() {
+            API.open();
+        });
     });
+
 })(jQuery);
