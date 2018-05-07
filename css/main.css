@@ -27,9 +27,30 @@ section {
 /*
  * Nav bar
  */
-
+.above-navbar {
+    position: fixed;
+    height: 4px;
+    width: 100%;
+    z-index: 3000;
+}
+.above-navbar div {
+    height: 4px;
+}
+.above-navbar div.first {
+    background-color: #21b2a6;
+}
+.above-navbar div.second {
+    background-color: #37718e;
+}
+.above-navbar div.third {
+    background-color: #a64253;
+}
+.above-navbar div.fourth {
+    background-color: #505393;
+}
 .navbar {
   background-color: #fff;
+  top: 4px;
 }
 
 .navbar::before {
@@ -428,6 +449,9 @@ section {
 }
 
 @media(max-width: 420px) {
+    .faq .question {
+        padding: 50px 30px;
+    }
     .hero .wrapper h1 {
         font-size: 40px;
         padding: 10px 0;
