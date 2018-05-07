@@ -177,7 +177,7 @@ section {
 
 .hero .buttons a:hover,
 .hero .buttons a:focus {
-  background-color: #0F2C34;
+  background-color: rgba(0,0,0,0.5);
   color: #fff;
   transition: all 0.2s ease;
 }
