@@ -403,6 +403,10 @@ section {
         border-left: none;
     }
 
+    .faq .question {
+        height: 100%;
+    }
+
     .faq .grid-container:last-child .question {
         border-bottom: 1px solid rgba(0,0,0,0.5);
     }
