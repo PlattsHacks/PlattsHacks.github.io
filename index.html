@@ -45,7 +45,7 @@ layout: default
             {% for row in site.event.faq %}
                 <div class="grid-container">
                     {% for item in row %}
-                        <div class="question grid-50">
+                        <div class="question grid-50 grid-tablet-50 grid-mobile-100">
                             <h2>{{ item.question }}</h2>
                             <hr>
                             {{ item.answer | markdownify }}
