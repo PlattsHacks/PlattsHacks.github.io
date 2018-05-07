@@ -282,6 +282,21 @@ section {
   letter-spacing: 0.2em;
 }
 
+.faq .question {
+    padding: 50px 80px;
+    background: rgba(0, 0, 0, 0.035);
+    min-height: 330px;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+.faq .grid-container:last-child .question {
+    border-bottom: none;
+}
+
+.faq .question:last-child {
+    border-left: 1px solid rgba(0,0,0,0.5);
+}
+
 .faq .question h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -289,9 +304,8 @@ section {
 }
 
 .faq .question hr {
-  border-top: 8px solid #fff;
+  border-top: 2px solid #fff;
   margin: 20px 0;
-  width: 80px;
 }
 
 .faq .question p {
