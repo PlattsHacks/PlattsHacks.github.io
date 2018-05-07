@@ -21,7 +21,7 @@
 
 
         $("#navbar").mmenu({
-        	extensions: ["fx-menu-slide", "pagedim", "theme-dark", "position-right"]
+        	extensions: ["fx-menu-slide", "pagedim-black", "theme-dark", "position-right"]
         });
         var API = $("#navbar").data("mmenu");
 
