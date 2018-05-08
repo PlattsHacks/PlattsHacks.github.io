@@ -307,7 +307,7 @@ section {
     padding: 50px 80px;
     background: rgba(0, 0, 0, 0.035);
     height: 330px;
-    border-bottom: 1px solid rgba(0,0,0,0.5);
+    border-bottom: 1px solid rgba(0,0,0,0.06);
 }
 
 .faq .grid-container:last-child .question {
@@ -315,7 +315,7 @@ section {
 }
 
 .faq .question:last-child {
-    border-left: 1px solid rgba(0,0,0,0.5);
+    border-left: 1px solid rgba(0,0,0,0.06);
 }
 
 .faq .question h2 {
@@ -429,7 +429,7 @@ section {
     }
 
     .faq .grid-container:last-child .question {
-        border-bottom: 1px solid rgba(0,0,0,0.5);
+        border-bottom: 1px solid rgba(0,0,0,0.06);
     }
 
     .faq .grid-container:last-child .question:last-child {
