@@ -1,11 +1,12 @@
 (function($) {
-    particlesJS.load('particles-js', '/particles.json', function() {
-        console.log('callback - particles.js config loaded');
-    });
+    function particleInit() {
+        particlesJS.load('particles-js', '/particles.json', function() {
+            console.log("particles js loaded");
+        });
+    }
 
-    $(document).ready(function(){
+    function scrollInit() {
         $("a").on('click', function(event) {
-
             if (this.hash !== "") {
                 event.preventDefault();
 
@@ -18,16 +19,24 @@
                 });
             }
         });
+    }
 
-
+    function mmenu() {
         $("#navbar").mmenu({
         	extensions: ["fx-menu-slide", "pagedim-black", "theme-dark", "position-right"]
         });
+
         var API = $("#navbar").data("mmenu");
 
         $("#menu-mobile-button").click(function() {
             API.open();
         });
+    }
+
+    $(document).ready(function(){
+        particleInit();
+        scrollInit();
+        mmenu();
     });
 
 })(jQuery);
