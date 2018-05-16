@@ -33,10 +33,19 @@
         });
     }
 
+    function loadBackground() {
+        setTimeout(function() {
+            $('.hero').css({
+                'opacity': '1'
+            });
+        }, 500);
+    }
+
     $(document).ready(function(){
         particleInit();
         scrollInit();
         mmenu();
+        loadBackground();
     });
 
 })(jQuery);
