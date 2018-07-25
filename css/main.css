@@ -18,7 +18,7 @@
 }
 
 body {
-    background-color: #212d40;
+    background-color: #fff;
 }
 
 section {
@@ -209,7 +209,7 @@ section {
  */
 
 .about {
-    background-color: #21b2a6;
+    background-color: #18cabb;
     padding: 70px 0 90px;
     position: relative;
 }
@@ -246,6 +246,8 @@ section {
 .info {
     background-color: #fff;
     position: relative;
+    border-top: 8px solid #fff;
+    border-bottom: 8px solid #fff;
 }
 
 .info .item {
@@ -257,7 +259,7 @@ section {
 }
 
 .info .item .row .first-col {
-    background-color: #37718e;
+    background-color: #387780;
 }
 
 .info .item .row .second-col {
@@ -265,7 +267,7 @@ section {
 }
 
 .info .item .row .third-col {
-    background-color: #212d40;
+    background-color: #C8963E;
 }
 
 .info .item .row .first-col,
