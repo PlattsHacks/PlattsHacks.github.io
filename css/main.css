@@ -3,8 +3,8 @@
 * http://bit.ly/1ywfhq7
 */
 
-/* Open Sans Google Font */
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* Josefin Sans Google Font */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300');
 
 /*
  * Primary Blue: #44D5FF;
@@ -13,7 +13,7 @@
  */
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin Sans', serif;
     font-weight: 600;
 }
 
@@ -92,8 +92,7 @@ section {
 
 .hero {
     position: relative;
-    background-color: #D44B7D;
-    background-image: url('/images/platts-background.jpg');
+    background-color: #fff;
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 110vh;
@@ -101,7 +100,7 @@ section {
     opacity: 0;
 }
 
-.hero::after {
+/* .hero::after {
     content: '';
     position: absolute;
     top: 0;
@@ -109,11 +108,18 @@ section {
     left: 0;
     right: 0;
     background: rgba(0,0,0,0.5);
-}
+} */
 
 .hero > * {
     position: relative;
     z-index: 10;
+}
+
+.hero-logo {
+    max-width: 250px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
 }
 
 #particles-js {
@@ -125,35 +131,47 @@ section {
     z-index: 11;
 }
 
-.hero img {
-    max-width: 400px;
-}
-
 .hero .wrapper {
-    padding: 30vh 30px 0;
+    padding: 15vh 30px 0;
+    display: table;
+    width: 100%;
 }
 
 .hero .wrapper h1 {
     display: inline-block;
     font-size: 60px;
     font-weight: 800;
-    letter-spacing: -2px;
+    letter-spacing: 0.2em;
     padding: 10px 30px;
-    color: #fff;
+    color: #d44b7d;
     text-transform: uppercase;
+    line-height: 300px;
 }
 
-.hero .wrapper h2 {
+.hero-title {
+    text-align: left;
+}
+
+.hero-description {
+    display: block;
+    max-width: 1200px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.hero-description h2 {
     font-size: 28px;
     font-weight: 200;
-    color: #fff;
+    color: #d44b7d;
 }
 
-.hero .wrapper h3 {
+.hero-description h3 {
     font-size: 20px;
     font-weight: 200;
     padding-bottom: 35px;
-    color: #fff;
+    color: #d44b7d;
 }
 
 .hero .buttons {
@@ -164,10 +182,10 @@ section {
 
 .hero .buttons a {
     background: transparent;
-    border: 3px solid #fff;
-    color: #fff;
+    border: 3px solid #d44b7d;
+    color: #d44b7d;
     display: inline;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin Sans', serif;
     font-size: 1.1em;
     font-weight: 600;
     padding: 10px 50px;
@@ -178,8 +196,7 @@ section {
 
 .hero .buttons a:hover,
 .hero .buttons a:focus {
-    background-color: rgba(0,0,0,0.5);
-    color: #fff;
+    opacity: 0.5;
     transition: all 0.2s ease;
 }
 
@@ -203,9 +220,10 @@ section {
     font-size: 2.1em;
     border-bottom: 2px solid rgba(0,0,0,0.125);
     text-transform: uppercase;
-    max-width: 40%;
+    max-width: 50%;
     display: block;
     margin: 0 auto;
+    letter-spacing: 0.1em;
 }
 
 .about p {
@@ -213,6 +231,7 @@ section {
     font-size: 1.3em;
     line-height: 1.6em;
     padding: 18px 30px 0 30px;
+    letter-spacing: 0.1em;
 }
 
 .about p span {
@@ -260,7 +279,7 @@ section {
 }
 
 .info .item h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin Sans', serif;
     font-size: 1.75em;
     font-weight: 700;
     margin: 20px 0;
@@ -280,7 +299,7 @@ section {
 .info .item p {
     font-size: 0.9em;
     font-weight: 600;
-    letter-spacing: 0.25em;
+    letter-spacing: 0.3em;
     margin-bottom: 0;
     text-transform: uppercase;
     color: #fff;
@@ -291,14 +310,14 @@ section {
  */
 
 .faq {
-    background-color: #505393;
+    background-color: #797cc1;
     padding: 100px 0 130px;
     position: relative;
     color: #fff;
 }
 
 .faq h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin Sans', serif;
     margin-bottom: 50px;
     text-transform: uppercase;
     letter-spacing: 0.2em;
@@ -306,7 +325,7 @@ section {
 
 .faq .question {
     padding: 50px 80px;
-    background: rgba(0, 0, 0, 0.035);
+    background: rgba(0, 0, 0, 0.04);
     height: 330px;
     border-bottom: 1px solid rgba(0,0,0,0.06);
 }
@@ -320,9 +339,10 @@ section {
 }
 
 .faq .question h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin Sans', serif;
     font-weight: 700;
     font-size: 24px;
+    letter-spacing: 0.09em;
 }
 
 .faq .question hr {
@@ -333,6 +353,8 @@ section {
 .faq .question p {
     font-size: 18px;
     line-height: 1.5em;
+    letter-spacing: 0.1em;
+    text-align: justify;
 }
 
 .faq .question a {
@@ -353,10 +375,32 @@ section {
 .sponsors {
     padding: 100px 0;
     background-color: #fff;
+    text-align: center;
 }
 
 .sponsors .sub-text {
     padding: 30px 0;
+}
+
+.sponsor-button {
+    background: transparent;
+    border: 3px solid #d44b7d;
+    color: #d44b7d;
+    display: inline;
+    font-family: 'Josefin Sans', serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 10px 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: 0.5s ease-in-out;
+}
+
+.sponsor-button:hover {
+    opacity: 0.5;
+    text-decoration: none;
+    color: #d44b7d;
 }
 
 /*
@@ -400,7 +444,7 @@ section {
 }
 
 .footer h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin Sans', serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -439,6 +483,21 @@ section {
 }
 
 @media(max-width: 768px) {
+    .hero .wrapper {
+        padding: 15vh 0 0 0;
+    }
+    .hero .wrapper h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .hero-title {
+        text-align: center;
+    }
+
+    .hero-description {
+        padding-top: 0px;
+    }
     .hero img {
         width: 250px;
     }
