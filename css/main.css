@@ -71,6 +71,10 @@ section {
     cursor: pointer;
 }
 
+.navbar-nav.mr-auto .nav-item .nav-link {
+    display: inline-block;
+}
+
 /*
  * Trust Badge
  */
@@ -212,6 +216,7 @@ section {
     background-color: #18cabb;
     padding: 70px 0 90px;
     position: relative;
+    border-top: 1px solid rgb(9, 80, 74)
 }
 
 .about h1 {
@@ -246,8 +251,7 @@ section {
 .info {
     background-color: #fff;
     position: relative;
-    border-top: 8px solid #fff;
-    border-bottom: 8px solid #fff;
+    border-top: 2px solid rgb(9, 80, 74);
 }
 
 .info .item {
@@ -312,10 +316,10 @@ section {
  */
 
 .faq {
-    background-color: #797cc1;
+    background-color: #fff;
     padding: 100px 0 130px;
     position: relative;
-    color: #fff;
+    color: #333;
 }
 
 .faq h1 {
@@ -348,7 +352,7 @@ section {
 }
 
 .faq .question hr {
-    border-top: 2px solid #fff;
+    border-top: 2px solid #333;
     margin: 20px 0;
 }
 
@@ -360,7 +364,7 @@ section {
 }
 
 .faq .question a {
-    color: #fff;
+    color: #333;
     text-decoration: underline;
 }
 
