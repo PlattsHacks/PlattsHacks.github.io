@@ -216,7 +216,8 @@ section {
     background-color: #18cabb;
     padding: 70px 0 90px;
     position: relative;
-    border-top: 1px solid rgb(9, 80, 74)
+    border-top: 2px solid rgba(0,0,0,0.125);
+    border-bottom: 2px solid rgba(0,0,0,0.125);
 }
 
 .about h1 {
@@ -251,7 +252,6 @@ section {
 .info {
     background-color: #fff;
     position: relative;
-    border-top: 2px solid rgb(9, 80, 74);
 }
 
 .info .item {
