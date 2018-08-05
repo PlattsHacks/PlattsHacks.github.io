@@ -475,7 +475,17 @@ section {
   width: 50%;
 }
 
-.contributor-container .contributor-image-container img {
+.credits-wrapper.contributors {
+  padding: 90px 0;
+}
+
+.credits-container {
+  padding: 15px 10px 0 10px;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+.credits-container .credits-image-container img {
   width: 100%;
 }
 

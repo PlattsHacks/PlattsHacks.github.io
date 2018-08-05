@@ -3,30 +3,49 @@ layout: default
 ---
 
 <section class="credits">
-    <div class="container">
-      <div class="team-wrapper">
-        <h1> {{ site.credits.team-title }} </h1>
-        <p> {{ site.credits.team-description }}<p>
-      </div>
-      <div class="contributors-wrapper">
-        <h1>{{ site.credits.contributor-title }}</h1>
-        <p>{{ site.credits.contributor-description }}</p>
+  <div class="container">
 
-        <div class="contributors grid">
-          <div class="grid-sizer"></div>
-          {% for contributor in site.credits.contributors %}
-            <div class="contributor-container grid-item">
-              <div class="contributor-image-container grid-30">
-                <img src="{{ contributor.image.src }}" alt="{{ contributor.image.alt }}">
-              </div>
-              <div class="contributor-detail-container grid-70">
-                <h3> {{ contributor.name }} </h3>
-                <p> {{ contributor.title }} </p>
-                <p> {{ contributor.description }} </p>
-              </div>
+    <div class="credits-wrapper">
+      <h1> {{ site.credits.team-title }} </h1>
+      <p> {{ site.credits.team-description }}<p>
+      <div class="grid">
+        <div class="grid-sizer"></div>
+        {% for member in site.credits.team %}
+          <div class="credits-container credits-container grid-item">
+            <div class="credits-image-container grid-30">
+              <img src="{{ member.image.src }}" alt="{{ member.image.alt }}">
             </div>
-          {% endfor %}
-        </div>
+            <div class="credits-detail-container grid-70">
+              <h3> {{ member.name }} </h3>
+              <p> {{ member.title }} </p>
+              <p> {{ member.description }} </p>
+            </div>
+          </div>
+        {% endfor %}
       </div>
     </div>
+
+
+    <div class="credits-wrapper contributors">
+      <h1>{{ site.credits.contributor-title }}</h1>
+      <p>{{ site.credits.contributor-description }}</p>
+
+      <div class="grid">
+        <div class="grid-sizer"></div>
+        {% for contributor in site.credits.contributors %}
+          <div class="credits-container credits-container grid-item">
+            <div class="credits-image-container grid-30">
+              <img src="{{ contributor.image.src }}" alt="{{ contributor.image.alt }}">
+            </div>
+            <div class="credits-detail-container grid-70">
+              <h3> {{ contributor.name }} </h3>
+              <p> {{ contributor.title }} </p>
+              <p> {{ contributor.description }} </p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+  </div>
 </section>
