@@ -462,6 +462,14 @@ section {
     color: #fff;
 }
 
+/*
+ * Credits section
+ */
+
+.credits {
+  padding: 100px 0 130px;
+}
+
 @media(max-width: 1024px) and (min-width: 768px) {
     .info .item .row .first-col,
     .info .item .row .second-col,
