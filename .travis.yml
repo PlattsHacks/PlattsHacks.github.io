@@ -1,0 +1,15 @@
+language: ruby
+sudo: false
+branches:
+  only:
+    - master
+
+rvm:
+  - 2.1
+
+before_install:
+  - pip install --user awscli
+  - export PATH=$PATH:$HOME/.local/bin
+
+script:
+  - bundle exec jekyll build
