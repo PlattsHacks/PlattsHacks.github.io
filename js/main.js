@@ -7,7 +7,7 @@
 
     function scrollInit() {
         $("a").on('click', function(event) {
-            if (this.hash !== "") {
+            if (this.hash !== "" && $(this.hash).length != 0) {
                 event.preventDefault();
 
                 var hash = this.hash;
