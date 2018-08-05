@@ -12,95 +12,111 @@ url: "http://plattshacks.org/"
 
 # The ability to use custom themes.
 style:
-    theme: "main"
+  theme: "main"
 
 # This will help you track who's visiting your website.
 tracking:
-    google_analytics: "UA-43729070-14"
+  google_analytics: "UA-43729070-14"
 
 # Let people connect & engage with you through social media.
 social:
-    twitter_handle: "MLHacks"
+  twitter_handle: "MLHacks"
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-    title:       "PlattsHacks | 15 March 2019"
-    description: "This is a sample hackathon website that you can use by following instructions on GitHub."
-    image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
+  title:       "PlattsHacks | 15 March 2019"
+  description: "This is a sample hackathon website that you can use by following instructions on GitHub."
+  image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
+
+
+navbar:
+  title: "PlattsHacks"
+  items:
+    - title: "Sponsors"
+      link: "http://127.0.0.1:4000/#sponsors"
+    - title: "Credits"
+      link: "/credits"
 
 # Event information.
 event:
-    name:        "PlattsHacks"
-    description: "PlattsHacks is a hackathon hosted at SUNY Plattsburgh. One of the best hack in Upstate New York"
-    date:        "Date: 30th-31st March 2019"
-    location:    "Yokum Hall, Plattsburgh, NY US"
+  name:        "PlattsHacks"
+  description: "PlattsHacks is a hackathon hosted at SUNY Plattsburgh. One of the best hack in Upstate New York"
+  date:        "Date: 30th-31st March 2019"
+  location:    "Yokum Hall, Plattsburgh, NY US"
 
-    # trust_badge:
-    #   year:   "2018"  # season year
-    #   region: "na"    # "na" or "eu"
-    #   color:  "white" # "white", "black", "gray", "red", "blue" or "yellow"
+  # trust_badge:
+  #   year:   "2018"  # season year
+  #   region: "na"    # "na" or "eu"
+  #   color:  "white" # "white", "black", "gray", "red", "blue" or "yellow"
 
-    hero:
-        links:
-            - text: "Apply"
-              href: "https://docs.google.com/forms/d/1bzg_LFVvEIPu4nXXftOdnamOh4sJQMVZzv9SPUPlGeg"
-            - text: "Sponsor"
-              href: "mailto:plattshack@gmail.com"
-
-
-    about:
-        header: "What is PlattsHacks?"
-        description: "PlattsHacks is a hackathon hosted at State University of New York at Plattsburgh. Join us for 24 hours of programming, music, great food, and professor presentations."
+  hero:
+    links:
+      - text: "Apply"
+        href: "https://docs.google.com/forms/d/1bzg_LFVvEIPu4nXXftOdnamOh4sJQMVZzv9SPUPlGeg"
+      - text: "Sponsor"
+        href: "mailto:plattshack@gmail.com"
 
 
-    info:
-        section_1:
-            title: "LEARN."
-            description: >
-              Learn how to tackle complex problems with your team or attend some professor presentations.
-        section_2:
-            title: "BUILD."
-            description: >
-              Work together with your team to build the best application in limited time; the best teams will win prizes.
-        section_3:
-            title: "SHARE."
-            description: >
-              Present your creation or share a slice of pizza with someone from another school.
+  about:
+    header: "What is PlattsHacks?"
+    description: "PlattsHacks is a hackathon hosted at State University of New York at Plattsburgh. Join us for 24 hours of programming, music, great food, and professor presentations."
 
 
-    faq:
-        -
-            - question: "What is a hackathon?"
-              answer: >
-                A hackathon is an invention marathon. Students come together to build cool
-                software & hardware hacks over 24-48 hours. It's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl).
-            - question: "How much does it cost?"
-              answer: >
-                Nothing. Attending a hackathon is free.
-        -
-            - question: "Do I need to be a student to attend?"
-              answer: >
-                Yes. Only students who are currently enrolled at a college/university or
-                have graduated within the past 12 months are eligible to attend.
-            - question: "Where is the event?"
-              answer: >
-                The event is being hosted at Yokum Hall, SUNY Plattsburgh, Plattsburgh NY 12901.
-        -
-            - question: "What is Major League Hacking?"
-              answer: >
-                Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
-                We work with over 200 Member Events and empower over 70,000 students every year.
-            - question: "Is there a code of conduct?"
-              answer: >
-                Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
+  info:
+    section_1:
+      title: "LEARN."
+      description: >
+        Learn how to tackle complex problems with your team or attend some professor presentations.
+    section_2:
+      title: "BUILD."
+      description: >
+        Work together with your team to build the best application in limited time; the best teams will win prizes.
+    section_3:
+      title: "SHARE."
+      description: >
+        Present your creation or share a slice of pizza with someone from another school.
 
-    sponsors:
-        header: "Sponsors are coming soon!"
 
-    # This is the message you'll receive once you've registered.
-    register:
-        message: >
-            You'll receive more information closer to the hackathon.
+  faq:
+    -
+      - question: "What is a hackathon?"
+        answer: >
+          A hackathon is an invention marathon. Students come together to build cool
+          software & hardware hacks over 24-48 hours. It's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl).
+      - question: "How much does it cost?"
+        answer: >
+          Nothing. Attending a hackathon is free.
+    -
+      - question: "Do I need to be a student to attend?"
+        answer: >
+          Yes. Only students who are currently enrolled at a college/university or
+          have graduated within the past 12 months are eligible to attend.
+      - question: "Where is the event?"
+        answer: >
+          The event is being hosted at Yokum Hall, SUNY Plattsburgh, Plattsburgh NY 12901.
+    -
+      - question: "What is Major League Hacking?"
+        answer: >
+          Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
+          We work with over 200 Member Events and empower over 70,000 students every year.
+      - question: "Is there a code of conduct?"
+        answer: >
+          Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
+
+  sponsors:
+    header: "Sponsors are coming soon!"
+
+  # This is the message you'll receive once you've registered.
+  register:
+    message: >
+      You'll receive more information closer to the hackathon.
+
+credits:
+  title: "Credits"
+  description: "We really appreciate the work of these people who have contributed
+  to the hackathon. The hackathon won't happen without them :)."
+  people:
+
 
 # ----------------------------------------------------
 # -- Ignore this unless you know what you're doing. --
@@ -108,10 +124,10 @@ event:
 
 markdown: kramdown
 exclude:
-    - node_modules
-    - gulpfile.js
-    - Gemfile
-    - Gemfile.lock
-    - package.json
-    - README.md
-    - CNAME
+  - node_modules
+  - gulpfile.js
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - README.md
+  - CNAME

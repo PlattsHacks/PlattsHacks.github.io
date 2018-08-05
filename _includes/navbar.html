@@ -5,11 +5,13 @@
     <div class="grid-25 tablet-grid-25 mobile-grid-25 fourth"></div>
 </div>
 <nav class="navbar sticky-top navbar-expand-lg navbar-light Sticky">
-    <a class="navbar-brand" href="#">PlattsHacks</a>
+    <a class="navbar-brand" href="/">{{ site.navbar.title }}</a>
 
     <ul class="navbar-nav mr-auto hide-on-mobile">
         <li class="nav-item">
-            <a class="nav-link" href="#sponsors">Sponsors</a>
+            {% for item in site.navbar.items %}
+              <a class="nav-link" href="{{ item.link }}">{{ item.title }}</a>
+            {% endfor %}
         </li>
     </ul>
 
@@ -18,7 +20,9 @@
     <div id="navbar">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a href="#sponsors">Sponsors</a>
+              {% for item in site.navbar.items %}
+                <a href="{{ item.link }}">{{ item.title }}</a>
+              {% endfor %}
             </li>
         </ul>
     </div>
