@@ -1,8 +1,11 @@
 (function($) {
     function particleInit() {
+      // only enable particlesjs if the container is presented
+      if ($('#particles-js').length != 0) {
         particlesJS.load('particles-js', '/particles.json', function() {
             console.log("particles js loaded");
         });
+      }
     }
 
     function scrollInit() {
