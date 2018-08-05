@@ -9,39 +9,49 @@
     }
 
     function scrollInit() {
-        $("a").on('click', function(event) {
-            if (this.hash !== "" && $(this.hash).length != 0) {
-                event.preventDefault();
+      $("a").on('click', function(event) {
+        if (this.hash !== "" && $(this.hash).length != 0) {
+          event.preventDefault();
 
-                var hash = this.hash;
+          var hash = this.hash;
 
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                }, 800, function(){
-                    window.location.hash = hash;
-                });
-            }
-        });
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+            window.location.hash = hash;
+          });
+        }
+      });
     }
 
     function mmenu() {
-        $("#navbar").mmenu({
-        	extensions: ["fx-menu-slide", "pagedim-black", "theme-dark", "position-right"]
-        });
+      $("#navbar").mmenu({
+      	extensions: ["fx-menu-slide", "pagedim-black", "theme-dark", "position-right"]
+      });
 
-        var API = $("#navbar").data("mmenu");
+      var API = $("#navbar").data("mmenu");
 
-        $("#menu-mobile-button").click(function() {
-            API.open();
-        });
+      $("#menu-mobile-button").click(function() {
+        API.open();
+      });
     }
 
     function loadBackground() {
-        setTimeout(function() {
-            $('.hero').css({
-                'opacity': '1'
-            });
-        }, 500);
+      setTimeout(function() {
+        $('.hero').css({
+          'opacity': '1'
+        });
+      }, 500);
+    }
+
+    function masonryInit() {
+      if ($('.grid').length != 0) {
+        $('.grid').masonry({
+          itemSelector: '.grid-item',
+          columnWidth: '.grid-sizer',
+          percentPosition: true
+        });
+      }
     }
 
     $(document).ready(function(){
@@ -49,6 +59,7 @@
         scrollInit();
         mmenu();
         loadBackground();
+        masonryInit();
     });
 
 })(jQuery);

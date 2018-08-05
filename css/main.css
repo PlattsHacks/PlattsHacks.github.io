@@ -470,6 +470,15 @@ section {
   padding: 100px 0 130px;
 }
 
+.grid-sizer,
+.grid-item {
+  width: 50%;
+}
+
+.contributor-container .contributor-image-container img {
+  width: 100%;
+}
+
 @media(max-width: 1024px) and (min-width: 768px) {
     .info .item .row .first-col,
     .info .item .row .second-col,

@@ -2,8 +2,31 @@
 layout: default
 ---
 
-<section>
+<section class="credits">
     <div class="container">
-        <h1>Credits</h1>
+      <div class="team-wrapper">
+        <h1> {{ site.credits.team-title }} </h1>
+        <p> {{ site.credits.team-description }}<p>
+      </div>
+      <div class="contributors-wrapper">
+        <h1>{{ site.credits.contributor-title }}</h1>
+        <p>{{ site.credits.contributor-description }}</p>
+
+        <div class="contributors grid">
+          <div class="grid-sizer"></div>
+          {% for contributor in site.credits.contributors %}
+            <div class="contributor-container grid-item">
+              <div class="contributor-image-container grid-30">
+                <img src="{{ contributor.image.src }}" alt="{{ contributor.image.alt }}">
+              </div>
+              <div class="contributor-detail-container grid-70">
+                <h3> {{ contributor.name }} </h3>
+                <p> {{ contributor.title }} </p>
+                <p> {{ contributor.description }} </p>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
     </div>
 </section>
