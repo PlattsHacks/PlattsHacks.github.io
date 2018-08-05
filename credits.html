@@ -2,15 +2,18 @@
 layout: default
 ---
 
+{% assign credits = site.data.credits.credits.credits %}
+
+
 <section class="credits">
   <div class="container">
 
     <div class="credits-wrapper">
-      <h1> {{ site.credits.team-title }} </h1>
-      <p> {{ site.credits.team-description }}<p>
+      <h1> {{ credits.team-title }} </h1>
+      <p> {{ credits.team-description }}<p>
       <div class="grid">
         <div class="grid-sizer"></div>
-        {% for member in site.credits.team %}
+        {% for member in credits.team %}
           <div class="credits-container credits-container grid-item">
             <div class="credits-image-container grid-30">
               <img src="{{ member.image.src }}" alt="{{ member.image.alt }}">
@@ -27,12 +30,12 @@ layout: default
 
 
     <div class="credits-wrapper contributors">
-      <h1>{{ site.credits.contributor-title }}</h1>
-      <p>{{ site.credits.contributor-description }}</p>
+      <h1>{{ credits.contributor-title }}</h1>
+      <p>{{ credits.contributor-description }}</p>
 
       <div class="grid">
         <div class="grid-sizer"></div>
-        {% for contributor in site.credits.contributors %}
+        {% for contributor in credits.contributors %}
           <div class="credits-container credits-container grid-item">
             <div class="credits-image-container grid-30">
               <img src="{{ contributor.image.src }}" alt="{{ contributor.image.alt }}">

@@ -1,0 +1,10 @@
+hero:
+  name:        "PlattsHacks"
+  description: "PlattsHacks is a hackathon hosted at SUNY Plattsburgh. One of the best hack in Upstate New York"
+  date:        "Date: 30th-31st March 2019"
+  location:    "Yokum Hall, Plattsburgh, NY US"
+  links:
+    - text: "Apply"
+      href: "https://docs.google.com/forms/d/1bzg_LFVvEIPu4nXXftOdnamOh4sJQMVZzv9SPUPlGeg"
+    - text: "Sponsor"
+      href: "mailto:plattshack@gmail.com"

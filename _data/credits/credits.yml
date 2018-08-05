@@ -1,0 +1,23 @@
+credits:
+  team-title: "Our Team"
+  team-description: "A hackathon can't be complete without a team who organizes
+  it! This is a list of people in our PlattsHacks team!"
+  team:
+    - name: "Sam Coveney"
+      image:
+      title:
+      description:
+  contributor-title: "Contributors"
+  contributor-description: >
+    We really appreciate the work of these people who have contributed
+    to the hackathon. The hackathon won't happen without them :). Here is the list of the
+    contributors!
+  contributors:
+    - image:
+        src: "images/contributors/tramnguyen.jpg"
+        alt: "Tram Nguyen profile pic"
+      name: "Tram Nguyen"
+      title: "Designer"
+      description: >
+        Tram has taken a good care of the designing tasks of the hackathon including
+        the website and the logo design!
