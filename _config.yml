@@ -23,7 +23,7 @@ seo:
   title: "PlattsHacks | 31 March 2019"
   description: >
     This is the landing page of the Plattburgh hackathon.
-  image: ""
+  image: "/images/logo.png"
 
 
 markdown: kramdown
