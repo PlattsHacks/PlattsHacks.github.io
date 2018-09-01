@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+{% assign credits = site.data.credits.credits.credits %}
+
+
+<section class="credits">
+  <div class="container">
+
+    <div class="credits-wrapper">
+      <h1> {{ credits.team-title }} </h1>
+      <p> {{ credits.team-description }}<p>
+        <div class="grid">
+          <div class="grid-sizer"></div>
+          {% for contributor in credits.team %}
+            <div class="credits-container grid-item">
+              <div class="credits-image-container grid-30 tablet-grid-30 mobile-grid-100">
+                <img class="portrait" src="{{ contributor.image.src }}" alt="{{ contributor.image.alt }}">
+              </div>
+              <div class="grid-70 tablet-grid-70 mobile-grid-100">
+                <div class="credits-detail-container">
+                  <h3> {{ contributor.name }} </h3>
+                  <p> {{ contributor.title }} </p>
+                  <p> {{ contributor.description }} </p>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+    </div>
+
+
+    <div class="credits-wrapper contributors">
+      <h1>{{ credits.contributor-title }}</h1>
+      <p>{{ credits.contributor-description }}</p>
+
+      <div class="grid">
+        <div class="grid-sizer"></div>
+        {% for contributor in credits.contributors %}
+          <div class="credits-container grid-item">
+            <div class="credits-image-container grid-30 tablet-grid-30 mobile-grid-100">
+              <img class="portrait" src="{{ contributor.image.src }}" alt="{{ contributor.image.alt }}">
+            </div>
+            <div class="grid-70 tablet-grid-70 mobile-grid-100">
+              <div class="credits-detail-container">
+                <h3> {{ contributor.name }} </h3>
+                <p> {{ contributor.title }} </p>
+                <p> {{ contributor.description }} </p>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+  </div>
+</section>
