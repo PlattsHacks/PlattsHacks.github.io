@@ -5,20 +5,18 @@ credits:
   team:
     - image:
         src: "images/contributors/sam.jpg"
-        alt: "Tram Nguyen profile pic"
+        alt: "Sam profile pic"
       name: "Sam Coveney"
       title: "Hackathon Organizer"
       description: >
-        Tram took care of the designing tasks of the hackathon including
-        the website and the logo design!
+        Sam is the organizer of the Hackathon. He takes care of the talking.
     - image:
         src: "images/contributors/lam.jpg"
-        alt: "Tram Nguyen profile pic"
+        alt: "Lam profile pic"
       name: "Lam Nguyen"
       title: "Hackathon Organizer"
       description: >
-        Tram took care of the designing tasks of the hackathon including
-        the website and the logo design!
+        Lam organizes the hackathon and the website of the Plattshacks.
   contributor-title: "Contributors"
   contributor-description: >
     We really appreciate the work of these people who have contributed
