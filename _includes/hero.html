@@ -1,17 +1,28 @@
+{% assign hero = site.data.homepage.hero.hero %}
+
+
 <section class="hero">
     <div id="particles-js"></div>
     <div class="wrapper text-center">
-        <h1 rel="title">{{ site.event.name }}</h1>
-        <h2 rel="description">{{ site.event.description }}</h2>
-        <h3 rel="location">{{ site.event.date }} &mdash; {{ site.event.location }}</h3>
+        <div class="grid-40 tablet-grid-30 mobile-grid-100">
+            <img src="/images/logo.png" class="hero-logo">
+        </div>
+        <div class="grid-60 tablet-grid-70 mobile-grid-100 hero-title">
+            <h1 rel="title">{{ hero.name }}</h1>
+        </div>
     </div>
-    <div class="buttons">
-      {% for link in site.event.hero.links %}
-        {% if link.href %}
-          <a href="{{ link.href }}">{{ link.text }}</a>
-        {% elsif link.my_mlh %}
-          <a class="apply" href="https://my.mlh.io/oauth/authorize?client_id={{ link.my_mlh.client_id }}&amp;redirect_uri={{ link.my_mlh.redirect_uri }}&amp;response_type=token">{{ link.text }}</a>
-        {% endif %}
-      {% endfor %}
+    <div class="hero-description">
+        <h2 rel="description">{{ hero.description }}</h2>
+        <h3 rel="location">{{ hero.date }} &mdash; {{ hero.location }}</h3>
+
+        <div class="buttons">
+          {% for link in hero.links %}
+            {% if link.href %}
+              <a href="{{ link.href }}">{{ link.text }}</a>
+            {% elsif link.my_mlh %}
+              <a class="apply" href="https://my.mlh.io/oauth/authorize?client_id={{ link.my_mlh.client_id }}&amp;redirect_uri={{ link.my_mlh.redirect_uri }}&amp;response_type=token">{{ link.text }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
     </div>
 </section>

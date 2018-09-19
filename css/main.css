@@ -1,0 +1,599 @@
+/*
+* RegistrationHacks Style File
+* http://bit.ly/1ywfhq7
+*/
+
+/* Josefin Sans Google Font */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300');
+
+/*
+ * Primary Blue: #44D5FF;
+ * Dark Blue: #0F2C34;
+ * Primary Pink: #FF7FA8;
+ */
+
+* {
+    font-family: 'Josefin Sans', serif;
+    font-weight: 600;
+}
+
+body {
+    background-color: #fff;
+}
+
+section {
+    overflow-x:hidden;
+}
+/*
+ * Nav bar
+ */
+.above-navbar {
+    position: fixed;
+    height: 4px;
+    width: 100%;
+    z-index: 3000;
+}
+.above-navbar div {
+    height: 4px;
+}
+.above-navbar div.first {
+    background-color: #21b2a6;
+}
+.above-navbar div.second {
+    background-color: #37718e;
+}
+.above-navbar div.third {
+    background-color: #a64253;
+}
+.above-navbar div.fourth {
+    background-color: #505393;
+}
+.navbar {
+    background-color: #fff;
+    top: 4px;
+}
+
+.navbar::before {
+    background: #e7e7e7;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+#menu-mobile-button {
+    color: rgba(0,0,0,.7);
+    padding-right: 15px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.navbar-nav.mr-auto .nav-item .nav-link {
+    display: inline-block;
+}
+
+/*
+ * Trust Badge
+ */
+
+#mlh-trust-badge {
+    display: block;
+    max-width: 100px;
+    min-width: 60px;
+    position: fixed;
+    right: 50px;
+    top: 0;
+    width: 10%;
+    z-index: 10000;
+}
+
+/*
+ * Hero Section
+ */
+
+.hero {
+    position: relative;
+    background-color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 110vh;
+    overflow: hidden;
+    opacity: 0;
+}
+
+/* .hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+} */
+
+.hero > * {
+    position: relative;
+    z-index: 10;
+}
+
+.hero-logo {
+    max-width: 250px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 11;
+}
+
+.hero .wrapper {
+    padding: 15vh 30px 0;
+    display: table;
+    width: 100%;
+}
+
+.hero .wrapper h1 {
+    display: inline-block;
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    padding: 10px 30px;
+    color: #d44b7d;
+    text-transform: uppercase;
+    line-height: 300px;
+}
+
+.hero-title {
+    text-align: left;
+}
+
+.hero-description {
+    display: block;
+    max-width: 1200px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.hero-description h2 {
+    font-size: 28px;
+    font-weight: 200;
+    color: #d44b7d;
+}
+
+.hero-description h3 {
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: 35px;
+    color: #d44b7d;
+}
+
+.hero .buttons {
+    margin: 40px 0;
+    z-index: 12;
+    text-align: center;
+}
+
+.hero .buttons a {
+    background: transparent;
+    border: 3px solid #d44b7d;
+    color: #d44b7d;
+    display: inline;
+    font-family: 'Josefin Sans', serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 10px 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.hero .buttons a:hover,
+.hero .buttons a:focus {
+    opacity: 0.5;
+    transition: all 0.2s ease;
+}
+
+.hero .buttons a:not(:last-child) {
+    margin-right: 10px;
+}
+
+/*
+ * About Section
+ */
+
+.about {
+    background-color: #18cabb;
+    padding: 70px 0 90px;
+    position: relative;
+    border-top: 2px solid rgba(0,0,0,0.125);
+    border-bottom: 2px solid rgba(0,0,0,0.125);
+}
+
+.about h1 {
+    color: #fff;
+    padding: 10px 0 30px 0;
+    font-size: 2.1em;
+    border-bottom: 2px solid rgba(0,0,0,0.125);
+    text-transform: uppercase;
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+    letter-spacing: 0.1em;
+}
+
+.about p {
+    color: #fff;
+    font-size: 1.3em;
+    line-height: 1.6em;
+    padding: 18px 30px 0 30px;
+    letter-spacing: 0.1em;
+}
+
+.about p span {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/*
+ * Info Section
+ */
+
+.info {
+    background-color: #fff;
+    position: relative;
+}
+
+.info .item {
+    width: 100%;
+}
+
+.info .item .row {
+    min-height: 300px;
+}
+
+.info .item .row .first-col {
+    background-color: #387780;
+}
+
+.info .item .row .second-col {
+    background-color: #a64253;
+}
+
+.info .item .row .third-col {
+    background-color: #C8963E;
+}
+
+.info .item .row .first-col,
+.info .item .row .second-col,
+.info .item .row .third-col {
+    padding: 40px 80px 90px;
+}
+
+.info .item .row .col {
+    padding: 40px 80px 80px;
+}
+
+.info .item h1 {
+    font-family: 'Josefin Sans', serif;
+    font-size: 1.75em;
+    font-weight: 700;
+    margin: 20px 0;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    padding: 25px 0;
+    max-width: 20%;
+    letter-spacing: 0.2em;
+}
+
+.info .item img {
+    max-width: 220px;
+    margin: 0 auto;
+    display: block;
+}
+
+.info .item p {
+    font-size: 0.9em;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/*
+ * FAQ Section
+ */
+
+.faq {
+    background-color: #fff;
+    padding: 100px 0 130px;
+    position: relative;
+    color: #333;
+}
+
+.faq h1 {
+    font-family: 'Josefin Sans', serif;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.faq .question {
+    padding: 50px 80px;
+    background: rgba(0, 0, 0, 0.04);
+    height: 360px;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.faq .grid-container:last-child .question {
+    border-bottom: none;
+}
+
+.faq .question:last-child {
+    border-left: 1px solid rgba(0,0,0,0.06);
+}
+
+.faq .question h2 {
+    font-family: 'Josefin Sans', serif;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.09em;
+}
+
+.faq .question hr {
+    border-top: 2px solid #333;
+    margin: 20px 0;
+}
+
+.faq .question p {
+    font-size: 18px;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+    text-align: justify;
+}
+
+.faq .question a {
+    color: #333;
+    text-decoration: underline;
+}
+
+.faq img {
+    margin-bottom: -2px;
+    margin-top: 40px;
+    width: 300px;
+}
+
+/*
+ * Sponsors Section
+ */
+
+.sponsors {
+    padding: 100px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.sponsors .sub-text {
+    padding: 30px 0;
+}
+
+.sponsor-button {
+    background: transparent;
+    border: 3px solid #d44b7d;
+    color: #d44b7d;
+    display: inline;
+    font-family: 'Josefin Sans', serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 10px 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: 0.5s ease-in-out;
+}
+
+.sponsor-button:hover {
+    opacity: 0.5;
+    text-decoration: none;
+    color: #d44b7d;
+}
+
+/*
+ * Location Section
+ */
+
+.location {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.location h1 {
+    padding: 50px 0;
+}
+
+.location .map-container {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.location .map-container iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+/*
+ * Footer Section
+ */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    min-height: 200px;
+}
+
+.footer img {
+    max-width: 250px;
+    margin-bottom: 15px;
+}
+
+.footer h3 {
+    font-family: 'Josefin Sans', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+    margin-top: 60px;
+}
+
+.footer h3 a {
+    color: #fff;
+}
+
+/*
+ * Credits section
+ */
+
+.credits {
+  padding: 100px 0 130px;
+}
+
+.grid-sizer,
+.grid-item {
+  width: 48%;
+}
+
+.credits-wrapper.contributors {
+  padding: 90px 0;
+}
+
+.credits-container {
+  padding: 15px 10px 0 10px;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 5px;
+  margin: 15px 0;
+}
+
+.credits-detail-container {
+  width: 100%;
+}
+
+.credits-image-container {
+  position: relative;
+  height: 135px;
+  overflow: hidden;
+}
+
+.credits-image-container img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.credits-image-container img.portrait {
+  width: 100%;
+  height: auto;
+}
+
+@media(max-width: 1024px) and (min-width: 768px) {
+  .info .item .row .first-col,
+  .info .item .row .second-col,
+  .info .item .row .third-col {
+    padding: 40px 50px 90px 60px;
+  }
+}
+
+@media(max-width: 1024px) {
+  .credits-image-container {
+    height: 130px;
+  }
+  .grid-sizer, .grid-item {
+    width: 100%;
+  }
+  .faq .question:last-child {
+    border-left: none;
+  }
+
+  .faq .question {
+    height: 100%;
+  }
+
+  .faq .grid-container:last-child .question {
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+  }
+
+  .faq .grid-container:last-child .question:last-child {
+    border-bottom: none;
+  }
+}
+
+@media(max-width: 768px) {
+  .credits-image-container {
+    height: 400px;
+  }
+  .credits-detail-container {
+    padding: 20px 0;
+  }
+  .hero .wrapper {
+    padding: 15vh 0 0 0;
+  }
+  .hero .wrapper h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .hero-title {
+    text-align: center;
+  }
+
+  .hero-description {
+    padding-top: 0px;
+  }
+  .hero img {
+    width: 250px;
+  }
+
+  .hero hr {
+    border-top-width: 8px;
+    top: -8px;
+  }
+}
+
+@media(max-width: 420px) {
+  .faq .question {
+    padding: 50px 30px;
+  }
+  .hero .wrapper h1 {
+    font-size: 40px;
+    padding: 10px 0;
+  }
+  .hero .wrapper h2 {
+    font-size: 18px;
+  }
+  .hero .buttons a {
+    padding: 10px 20px;
+  }
+  .hero .buttons a:not(:last-child) {
+    margin: 0;
+  }
+  .about h1 {
+    padding: 10px 0;
+    max-width: 100%;
+  }
+}

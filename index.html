@@ -2,28 +2,41 @@
 layout: default
 ---
 
+{% assign homepage = site.data.homepage.homepage.homepage %}
+
+
 {% include hero.html %}
 
 <section class="about">
     <div class="container">
         <div class="col-xs-12 col-sm-offset-1 text-center">
-            {{ site.event.about.description | markdownify }}
+            <h1>
+                {{ homepage.about.header }}
+            </h1>
+            <p>
+                {{ homepage.about.description | markdownify }}
+            </p>
         </div>
     </div>
 </section>
 
 <section class="info">
-    <div class="container">
-        <div class="items row">
-          {% for section in site.event.info.sections %}
-            <div class="col-xs-12 col-sm-4 text-center">
-                <div class="item">
-                    <img src="{{ section.image }}" />
-                    <h1>{{ section.title }}</h1>
-                    <p>{{ section.description }}</p>
+    <div class="items row">
+        <div class="item">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 first-col">
+                    <h1>{{ homepage.info.section_1.title }}</h1>
+                    <p>{{ homepage.info.section_1.description }}</p>
+                </div>
+                <div class="col-md-4 col-sm-12 second-col">
+                    <h1>{{ homepage.info.section_2.title }}</h1>
+                    <p>{{ homepage.info.section_2.description }}</p>
+                </div>
+                <div class="col-md-4 col-sm-12 third-col">
+                    <h1>{{ homepage.info.section_3.title }}</h1>
+                    <p>{{ homepage.info.section_3.description }}</p>
                 </div>
             </div>
-          {% endfor %}
         </div>
     </div>
 </section>
@@ -31,28 +44,27 @@ layout: default
 <section class="faq">
     <div class="container">
         <h1 class="text-center">FAQ</h1>
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-                {% for item in site.event.faq %}
-                <div class="question col-xs-12 col-sm-12">
-                    <h2>{{ item.question }}</h2>
-                    <hr>
-                    {{ item.answer | markdownify }}
+        <div>
+            {% for row in homepage.faq %}
+                <div class="grid-container">
+                    {% for item in row %}
+                        <div class="question grid-50 grid-tablet-50 grid-mobile-100">
+                            <h2>{{ item.question }}</h2>
+                            <hr>
+                            {{ item.answer | markdownify }}
+                        </div>
+                    {% endfor %}
                 </div>
-                {% endfor %}
-            </div>
+            {% endfor %}
         </div>
     </div>
 </section>
 
-<section class="sponsors">
+<section class="sponsors" id="sponsors">
     <div class="container">
         <h1 class="text-center">Sponsors</h1>
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-
-            </div>
-        </div>
+        <h2 class="sub-text text-center">{{ homepage.sponsors.header }}</h2>
+        <a target="_blank" href="https://drive.google.com/file/d/1p7tQYIwzrL0uCgo4elPsEM8BIpLfTwJ3/view?usp=sharing" class="sponsor-button"> Sponsorship packet </a>
     </div>
 </section>
 
@@ -61,7 +73,7 @@ layout: default
         <h1 class="text-center">Location</h1>
         <div class="row">
             <div class="map-container col-xs-12 col-sm-8 col-sm-offset-2">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2836.30268014394!2d-73.46692533467478!3d44.693018992588314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cca47588b5d2901%3A0xada64e944af507dd!2sMemorial+Hall%2C+Rugar+St%2C+Plattsburgh%2C+NY+12901!5e0!3m2!1sen!2sus!4v1523833194666" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2836.239154362774!2d-73.46921128446812!3d44.69431607909945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cca4758ad72ba25%3A0x72f2820ae0dbf351!2sYokum+Communications%2FLecture+Hall!5e0!3m2!1sen!2sus!4v1525704526634" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
     </div>

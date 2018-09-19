@@ -1,0 +1,7 @@
+navbar:
+  title: "PlattsHacks"
+  items:
+    - title: "Sponsors"
+      link: "http://127.0.0.1:4000/#sponsors"
+    - title: "Credits"
+      link: "/credits"

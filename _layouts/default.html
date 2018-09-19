@@ -2,25 +2,22 @@
 <html>
   {% include head.html %}
 
-  <body{% if page.custom_class %} class="{{ page.custom_class }}"{% endif %}>
-    {% include trust_badge.html %}
-    {% include navbar.html %}
+    <body{% if page.custom_class %} class="{{ page.custom_class }}"{% endif %}>
+        <div id="wrapper">
 
-    {{ content }}
+            {% include trust_badge.html %}
+            {% include navbar.html %}
 
-    <section class="footer">
-      <div class="container text-center">
-        <h3>Made with <span style="color: #e25555;">&hearts;</span> by the Plattshacks team</h3>
-      </div>
-    </section>
+            {{ content }}
 
-    <script src="{{ '/js/jquery-1.11.3.js' | prepend: site.baseurl | prepend: site.url }}"></script>
-    <script src="{{ '/js/particles.min.js' | prepend: site.baseurl | prepend: site.url }}"></script>
-    <script src="{{ '/js/main.js' | prepend: site.baseurl | prepend: site.url }}"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+            <section class="footer">
+                <div class="container text-center">
+                    <h3>Made with <span style="color: #e25555;">&hearts;</span> by the Plattshacks team</h3>
+                </div>
+            </section>
+        </div>
 
-    {% include analytics/google_analytics.html ga_id=site.tracking.google_analytics %}
-  </body>
+        {% include scripts.html %}
+        {% include analytics/google_analytics.html ga_id=site.tracking.google_analytics %}
+    </body>
 </html>
