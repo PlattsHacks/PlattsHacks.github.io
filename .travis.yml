@@ -5,4 +5,5 @@ branches:
     - master
 
 script:
+  - bundle install
   - bundle exec jekyll build
