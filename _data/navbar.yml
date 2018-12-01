@@ -1,0 +1,7 @@
+navbar:
+  title: "PlattsHacks"
+  items:
+    - title: "Sponsors"
+      link: "https://plattshacks.org/#sponsors"
+    - title: "Credits"
+      link: "/credits"
