@@ -99,7 +99,7 @@ section {
     background-color: #fff;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 110vh;
+    min-height: 100vh;
     overflow: hidden;
     opacity: 0;
 }
@@ -120,7 +120,7 @@ section {
 }
 
 .hero-logo {
-    max-width: 250px;
+    max-width: 600px;
     display: block;
     position: relative;
     margin: 0 auto;
@@ -163,6 +163,7 @@ section {
     position: relative;
     margin: 0 auto;
     padding-top: 60px;
+    z-index: 100;
 }
 
 .hero-description h2 {
@@ -564,9 +565,6 @@ section {
 
   .hero-description {
     padding-top: 0px;
-  }
-  .hero img {
-    width: 250px;
   }
 
   .hero hr {

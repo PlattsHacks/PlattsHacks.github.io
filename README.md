@@ -1,5 +1,7 @@
 # Landing page for the PlattsHacks
 
+[![Build Status](https://travis-ci.org/PlattsHacks/PlattsHacks.github.io.svg?branch=master)](https://travis-ci.org/PlattsHacks/PlattsHacks.github.io)
+
 This is a hackathon boilerplate created by [Major League Hacking][mlh-github]. Using [Jekyll][jekyll], it has a extensible [configuration][config] that covers basic event information. You can then fork the website and have it hosted free through [GitHub Pages][github-pages]. It's free to use.
 
 Advantages:

@@ -25,9 +25,9 @@ seo:
     This is the landing page of the Plattburgh hackathon.
   image: "/images/logo.png"
 
-
 markdown: kramdown
 exclude:
+  - vendor
   - node_modules
   - gulpfile.js
   - Gemfile

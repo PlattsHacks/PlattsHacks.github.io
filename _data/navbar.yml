@@ -3,5 +3,5 @@ navbar:
   items:
     - title: "Sponsors"
       link: "https://plattshacks.org/#sponsors"
-    - title: "Credits"
-      link: "/credits"
+    # - title: "Credits"
+    #   link: "/credits"
