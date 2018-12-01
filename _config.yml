@@ -25,6 +25,7 @@ seo:
     This is the landing page of the Plattburgh hackathon.
   image: "/images/logo.png"
 
+exclude: [vendor]
 
 markdown: kramdown
 exclude:
