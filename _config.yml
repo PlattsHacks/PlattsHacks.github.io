@@ -1,7 +1,6 @@
 # --------------
 # -- Settings --
 # --------------
-exclude: [vendor]
 
 baseurl: ""
 
@@ -28,6 +27,7 @@ seo:
 
 markdown: kramdown
 exclude:
+  - vendor
   - node_modules
   - gulpfile.js
   - Gemfile

@@ -6,4 +6,4 @@ branches:
 
 script:
   - bundle install
-  - bundle exec jekyll build --exclude vendor
+  - bundle exec jekyll build
