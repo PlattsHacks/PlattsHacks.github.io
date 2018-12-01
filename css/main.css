@@ -99,7 +99,7 @@ section {
     background-color: #fff;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 110vh;
+    min-height: 100vh;
     overflow: hidden;
     opacity: 0;
 }
@@ -120,7 +120,7 @@ section {
 }
 
 .hero-logo {
-    max-width: 250px;
+    max-width: 600px;
     display: block;
     position: relative;
     margin: 0 auto;
@@ -163,6 +163,7 @@ section {
     position: relative;
     margin: 0 auto;
     padding-top: 60px;
+    z-index: 100;
 }
 
 .hero-description h2 {
@@ -216,7 +217,8 @@ section {
     background-color: #18cabb;
     padding: 70px 0 90px;
     position: relative;
-    border-top: 1px solid rgb(9, 80, 74)
+    border-top: 2px solid rgba(0,0,0,0.125);
+    border-bottom: 2px solid rgba(0,0,0,0.125);
 }
 
 .about h1 {
@@ -251,7 +253,6 @@ section {
 .info {
     background-color: #fff;
     position: relative;
-    border-top: 2px solid rgb(9, 80, 74);
 }
 
 .info .item {
@@ -489,29 +490,32 @@ section {
 }
 
 @media(max-width: 768px) {
-    .hero .wrapper {
-        padding: 15vh 0 0 0;
-    }
-    .hero .wrapper h1 {
-        font-size: 50px;
-        text-align: center;
-    }
+  .credits-image-container {
+    height: 400px;
+  }
+  .credits-detail-container {
+    padding: 20px 0;
+  }
+  .hero .wrapper {
+    padding: 15vh 0 0 0;
+  }
+  .hero .wrapper h1 {
+    font-size: 50px;
+    text-align: center;
+  }
 
-    .hero-title {
-        text-align: center;
-    }
+  .hero-title {
+    text-align: center;
+  }
 
-    .hero-description {
-        padding-top: 0px;
-    }
-    .hero img {
-        width: 250px;
-    }
+  .hero-description {
+    padding-top: 0px;
+  }
 
-    .hero hr {
-        border-top-width: 8px;
-        top: -8px;
-    }
+  .hero hr {
+    border-top-width: 8px;
+    top: -8px;
+  }
 }
 
 @media(max-width: 420px) {
