@@ -179,6 +179,23 @@ section {
     color: #d44b7d;
 }
 
+.hero-social-media {
+    text-align: right;
+    padding: 0 20px 30px 20px;
+    font-size: 20px;
+    color: #d44b7d;
+    z-index: 100;
+}
+
+.social-media-badges a {
+    color: #333;
+    font-size: 30px;
+}
+
+.social-media-badges a:hover {
+    opacity: 0.8;
+}
+
 .hero .buttons {
     margin: 40px 0;
     z-index: 12;
@@ -552,7 +569,7 @@ section {
     padding: 20px 0;
   }
   .hero .wrapper {
-    padding: 15vh 0 0 0;
+    padding: 10vh 0 0 0;
   }
   .hero .wrapper h1 {
     font-size: 50px;
