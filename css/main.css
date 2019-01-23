@@ -588,27 +588,40 @@ section {
     border-top-width: 8px;
     top: -8px;
   }
+
+  .hero-logo {
+    max-width: 500px;
+  }
 }
 
 @media(max-width: 420px) {
   .faq .question {
     padding: 50px 30px;
   }
+
   .hero .wrapper h1 {
     font-size: 40px;
     padding: 10px 0;
   }
+
   .hero .wrapper h2 {
     font-size: 18px;
   }
+
   .hero .buttons a {
     padding: 10px 20px;
   }
+
   .hero .buttons a:not(:last-child) {
     margin: 0;
   }
+
   .about h1 {
     padding: 10px 0;
     max-width: 100%;
+  }
+
+  .hero-logo {
+    max-width: 400px;
   }
 }
