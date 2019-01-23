@@ -179,6 +179,23 @@ section {
     color: #d44b7d;
 }
 
+.hero-social-media {
+    text-align: right;
+    padding: 0 20px 30px 20px;
+    font-size: 20px;
+    color: #d44b7d;
+    z-index: 100;
+}
+
+.social-media-badges a {
+    color: #333;
+    font-size: 30px;
+}
+
+.social-media-badges a:hover {
+    opacity: 0.8;
+}
+
 .hero .buttons {
     margin: 40px 0;
     z-index: 12;
