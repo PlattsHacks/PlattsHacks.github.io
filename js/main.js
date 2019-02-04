@@ -26,6 +26,13 @@
 
     function mmenu() {
       $("#navbar").mmenu({
+        "iconbar": {
+          "add": true,
+          "top": [
+            '<a href="https://www.facebook.com/PlattsHack/"><i class="fab fa-facebook-square"></i></a>',
+            '<a href="mailto:plattshack@gmail.com?Subject=Hello%20Plattshacks"><i class="far fa-envelope"></i></a>'
+          ]
+        },
       	extensions: ["fx-menu-slide", "pagedim-black", "theme-dark", "position-right"]
       });
 

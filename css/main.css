@@ -75,6 +75,22 @@ section {
     display: inline-block;
 }
 
+.navbar .navbar-social {
+  font-size: 25px;
+}
+
+.navbar .navbar-social a {
+  padding: 0 10px;
+}
+
+.navbar .navbar-social .fa-facebook-square {
+  color: #3b5998;
+}
+
+.navbar .navbar-social .fa-envelope {
+  color: rgba(0,0,0,.9);
+}
+
 /*
  * Trust Badge
  */
@@ -177,23 +193,6 @@ section {
     font-weight: 200;
     padding-bottom: 35px;
     color: #d44b7d;
-}
-
-.hero-social-media {
-    text-align: right;
-    padding: 0 20px 30px 20px;
-    font-size: 20px;
-    color: #d44b7d;
-    z-index: 100;
-}
-
-.social-media-badges a {
-    color: #333;
-    font-size: 30px;
-}
-
-.social-media-badges a:hover {
-    opacity: 0.8;
 }
 
 .hero .buttons {
