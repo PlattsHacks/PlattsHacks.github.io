@@ -404,6 +404,27 @@ section {
 
 .sponsors .sub-text {
     padding: 30px 0;
+    font-size: 23px;
+}
+
+.sponsors .sponsorship-packet {
+  padding: 30px 0;
+}
+
+.sponsors .sponsors-logo-container {
+  position: relative;
+  display: block;
+}
+
+.sponsors .sponsors-logo-container .sponsors-logo {
+  max-width: 300px;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+}
+
+.sponsors .sponsors-logo-container .sponsors-logo img {
+  width: 100%;
 }
 
 .sponsor-button {
@@ -490,7 +511,7 @@ section {
 
 .grid-sizer,
 .grid-item {
-  width: 48%;
+  width: 32%;
 }
 
 .credits-wrapper.contributors {
