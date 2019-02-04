@@ -41,10 +41,6 @@ homepage:
         answer: >
           The event is being hosted at Yokum Hall, SUNY Plattsburgh, Plattsburgh NY 12901.
     -
-      - question: "What is Major League Hacking?"
-        answer: >
-          Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
-          We work with over 200 Member Events and empower over 70,000 students every year.
       - question: "Is there a code of conduct?"
         answer: >
           Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
