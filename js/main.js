@@ -26,6 +26,12 @@
 
     function mmenu() {
       $("#navbar").mmenu({
+        "iconbar": {
+          "add": true,
+          "top": [
+            '<a href="https://www.facebook.com/PlattsHack/"><i class="fab fa-facebook-square"></i></a>',
+          ]
+        },
       	extensions: ["fx-menu-slide", "pagedim-black", "theme-dark", "position-right"]
       });
 
