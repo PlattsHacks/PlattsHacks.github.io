@@ -75,11 +75,11 @@ section {
     display: inline-block;
 }
 
-.navbar .navbar-text {
-  font-size: 20px;
+.navbar .navbar-social {
+  font-size: 25px;
 }
 
-.navbar .navbar-text a {
+.navbar .navbar-social a {
   color: #3b5998;
   padding: 0 10px;
 }
