@@ -18,7 +18,9 @@
     </ul>
 
     <span class="navbar-social hide-on-mobile">
-      <a href="{{ navbar.social-media.url }}"><i class="fab fa-facebook-square"></i></a>
+      {% for sm in navbar.social-media %}
+        <a href="{{ sm.url }}"><i class="{{ sm.type }}"></i></a>
+      {% endfor %}
     </span>
 
     <a id="menu-mobile-button" class="hide-on-desktop hide-on-tablet"><i class="fa fa-bars" aria-hidden="true"></i></a>

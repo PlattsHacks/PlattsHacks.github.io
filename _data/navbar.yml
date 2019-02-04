@@ -9,4 +9,9 @@ navbar:
       link: "https://fs30.formsite.com/CASplattsburgh/mxly6jdd7i/index.html"
 
   social-media:
-    url: "https://www.facebook.com/PlattsHack/"
+    - url: "https://www.facebook.com/PlattsHack/"
+      type: "fab fa-facebook-square"
+      name: "facebook"
+    - url: "mailto:plattshack@gmail.com?Subject=Hello%20Plattshacks"
+      type: "far fa-envelope"
+      name: "mail"

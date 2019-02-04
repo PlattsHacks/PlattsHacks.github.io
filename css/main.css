@@ -80,8 +80,15 @@ section {
 }
 
 .navbar .navbar-social a {
-  color: #3b5998;
   padding: 0 10px;
+}
+
+.navbar .navbar-social .fa-facebook-square {
+  color: #3b5998;
+}
+
+.navbar .navbar-social .fa-envelope {
+  color: rgba(0,0,0,.9);
 }
 
 /*
