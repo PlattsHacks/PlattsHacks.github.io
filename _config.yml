@@ -6,6 +6,9 @@ baseurl: ""
 
 url: "https://plattshacks.org/"
 
+event:
+  name: "Plattshacks: the best hackathon in the North Country"
+
 # The ability to use custom themes.
 style:
   theme: "main"

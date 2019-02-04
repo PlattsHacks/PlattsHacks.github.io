@@ -7,3 +7,7 @@ navbar:
     #   link: "/credits"
     - title: "Apply"
       link: "https://fs30.formsite.com/CASplattsburgh/mxly6jdd7i/index.html"
+
+  social-media:
+    title: "Follow us: "
+    url: "https://www.facebook.com/PlattsHack/"

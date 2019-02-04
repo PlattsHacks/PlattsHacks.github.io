@@ -75,6 +75,15 @@ section {
     display: inline-block;
 }
 
+.navbar .navbar-text {
+  font-size: 20px;
+}
+
+.navbar .navbar-text a {
+  color: #3b5998;
+  padding: 0 10px;
+}
+
 /*
  * Trust Badge
  */
@@ -177,23 +186,6 @@ section {
     font-weight: 200;
     padding-bottom: 35px;
     color: #d44b7d;
-}
-
-.hero-social-media {
-    text-align: right;
-    padding: 0 20px 30px 20px;
-    font-size: 20px;
-    color: #d44b7d;
-    z-index: 100;
-}
-
-.social-media-badges a {
-    color: #333;
-    font-size: 30px;
-}
-
-.social-media-badges a:hover {
-    opacity: 0.8;
 }
 
 .hero .buttons {
