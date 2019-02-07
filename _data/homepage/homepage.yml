@@ -45,6 +45,9 @@ homepage:
         answer: >
           Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
 
+  slack:
+    title: "Join our Slack channel to form your team, meet other hackers and get more information about the event!"
+
   sponsors:
     header: "A Huge Thanks to our Sponsors!"
     sub-header: ""
