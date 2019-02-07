@@ -549,6 +549,10 @@ section {
   height: auto;
 }
 
+.slack {
+  padding-top: 100px;
+}
+
 .slack-button {
   text-align: center;
   padding-top: 40px;
