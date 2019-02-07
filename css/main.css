@@ -549,6 +549,11 @@ section {
   height: auto;
 }
 
+.slack-button {
+  text-align: center;
+  padding-top: 40px;
+}
+
 @media(max-width: 1024px) and (min-width: 768px) {
   .info .item .row .first-col,
   .info .item .row .second-col,
