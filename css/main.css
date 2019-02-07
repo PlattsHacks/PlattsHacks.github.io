@@ -334,7 +334,7 @@ section {
 
 .faq {
     background-color: #fff;
-    padding: 100px 0 130px;
+    padding: 100px 0 50px;
     position: relative;
     color: #333;
 }
@@ -396,9 +396,9 @@ section {
  */
 
 .sponsors {
-    padding: 100px 0;
-    background-color: #fff;
-    text-align: center;
+  padding: 100px 0 0;
+  background-color: #fff;
+  text-align: center;
 }
 
 .sponsors .sub-text {
@@ -452,12 +452,12 @@ section {
  */
 
 .location {
-    background-color: #fff;
-    padding: 80px 0;
+  background-color: #fff;
+  padding: 100px 0;
 }
 
 .location h1 {
-    padding: 50px 0;
+  padding: 0 0 30px;
 }
 
 .location .map-container {
@@ -563,6 +563,9 @@ section {
 }
 
 @media(max-width: 1024px) {
+  .navbar-nav.mr-auto .nav-item .nav-link {
+    padding: 0 10px;
+  }
   .credits-image-container {
     height: 130px;
   }
