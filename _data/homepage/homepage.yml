@@ -46,8 +46,8 @@ homepage:
           Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
 
   sponsors:
-    header: "Sponsors"
-    sub-header: "We are glad to present the sponsors of Plattshacks 2019!"
+    header: "A Huge Thanks to our Sponsors!"
+    sub-header: ""
     sponsor:
       - name: "CCT"
         image: "/images/sponsors/CCT.png"
