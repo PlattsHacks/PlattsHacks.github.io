@@ -55,6 +55,9 @@ homepage:
       - name: "CCT"
         image: "/images/sponsors/CCT.png"
         url: "https://bit.ly/2D3FnN4"
+      - name: "DAE"
+        image: "/images/sponsors/DAE.png"
+        url: "https://www.thedae.com/"
     sponsor-packet:
       url: "https://drive.google.com/open?id=1rj-3JaL28ovJQ2tkgrtcqITTuMsLezUe"
       title: "Sponsorship packet"
