@@ -420,6 +420,7 @@ section {
   position: relative;
   text-align: center;
   display: inline-block;
+  margin: 0 30px;
 }
 
 .sponsors .sponsors-logo-container .sponsors-logo img {
