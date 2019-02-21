@@ -58,6 +58,12 @@ homepage:
       - name: "DAE"
         image: "/images/sponsors/DAE.png"
         url: "https://www.thedae.com/"
+      - name: "Software Engineering Club at Plattsburgh"
+        image: "/images/sponsors/SEC.jpg"
+        url: "https://www.facebook.com/plattsec/"
+      - name: "IXIS"
+        image: "/images/sponsors/ixis.png"
+        url: "https://ixisdigital.com/"
     sponsor-packet:
       url: "https://drive.google.com/open?id=1rj-3JaL28ovJQ2tkgrtcqITTuMsLezUe"
       title: "Sponsorship packet"
