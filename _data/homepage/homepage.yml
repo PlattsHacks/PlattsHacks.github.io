@@ -87,7 +87,7 @@ homepage:
       supporter:
         - name: "Film club"
           image: "/images/sponsors/filmclub.png"
-          url: "https://www.facebook.com/groups/1412614992373221/"
+          url: "/"
           grid_size: "grid-size-15"
     sponsor-packet:
       url: "https://drive.google.com/open?id=1rj-3JaL28ovJQ2tkgrtcqITTuMsLezUe"
