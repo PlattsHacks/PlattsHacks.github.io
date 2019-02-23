@@ -413,6 +413,7 @@ section {
 .sponsors .sponsors-logo-container {
   position: relative;
   display: block;
+  padding-bottom: 50px;
 }
 
 .sponsors .sponsors-logo-container .sponsors-logo {
