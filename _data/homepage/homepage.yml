@@ -52,18 +52,43 @@ homepage:
     header: "A Huge Thanks to our Sponsors!"
     sub-header: ""
     sponsor:
-      - name: "CCT"
-        image: "/images/sponsors/CCT.png"
-        url: "https://bit.ly/2D3FnN4"
+      # extra class: provide extra proper margin
+      # currently available: .marg-top
+      - name: "Insum"
+        image: "/images/sponsors/insum.png"
+        url: "https://insum.ca/"
+        grid_size: "grid-size-60"
+        extra_class: ""
       - name: "DAE"
         image: "/images/sponsors/DAE.png"
         url: "https://www.thedae.com/"
-      - name: "Software Engineering Club at Plattsburgh"
-        image: "/images/sponsors/SEC.jpg"
-        url: "https://www.facebook.com/plattsec/"
+        grid_size: "grid-size-15"
+        extra_class: ""
       - name: "IXIS"
         image: "/images/sponsors/ixis.png"
         url: "https://ixisdigital.com/"
+        grid_size: "grid-size-15"
+        extra_class: "marg-top"
+      - name: "CCT"
+        image: "/images/sponsors/CCT.png"
+        url: "https://bit.ly/2D3FnN4"
+        grid_size: "grid-size-15"
+        extra_class: "marg-top"
+      - name: "Software Engineering Club at Plattsburgh"
+        image: "/images/sponsors/SEC.jpg"
+        url: "https://www.facebook.com/plattsec/"
+        grid_size: "grid-size-25"
+        extra_class: ""
+
+    supporters:
+      header: "And our supporters!"
+      sub-header: >
+        Thank you to [**Mozilla**](https://www.mozilla.org/en-US/) for providing us with swag!
+      supporter:
+        - name: "Film club"
+          image: "/images/sponsors/filmclub.png"
+          url: "/"
+          grid_size: "grid-size-15"
     sponsor-packet:
       url: "https://drive.google.com/open?id=1rj-3JaL28ovJQ2tkgrtcqITTuMsLezUe"
       title: "Sponsorship packet"
