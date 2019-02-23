@@ -57,7 +57,8 @@
         itemSelector: '.grid-item',
         columnWidth: '.grid-sizer',
         percentPosition: true,
-        gutter: 15
+        gutter: 50,
+        horizontalOrder: true,
       });
     }
   }

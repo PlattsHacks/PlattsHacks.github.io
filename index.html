@@ -46,10 +46,10 @@ layout: default
         <h1 class="text-center">{{ homepage.sponsors.header }}</h1>
         <h2 class="sub-text text-center">{{ homepage.sponsors.sub-header }}</h2>
         <!-- <div class="sponsors-logo-container grid"> -->
-        <div class="sponsors-logo-container">
+        <div class="sponsors-logo-container grid">
           <div class="grid-sizer"></div>
           {% for sp in homepage.sponsors.sponsor %}
-            <div class="sponsors-logo grid-item">
+            <div class="sponsors-logo grid-item {{ sp.grid_size }} {{ sp.extra_class }}">
               <a href="{{ sp.url }}">
                 <img src="{{ sp.image }}" alt="{{ sp.name }}">
               </a>

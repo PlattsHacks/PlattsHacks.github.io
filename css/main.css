@@ -411,17 +411,15 @@ section {
 }
 
 .sponsors .sponsors-logo-container {
-  position: relative;
   display: block;
   padding-bottom: 50px;
 }
 
 .sponsors .sponsors-logo-container .sponsors-logo {
-  max-width: 300px;
   position: relative;
   text-align: center;
   display: inline-block;
-  margin: 0 30px;
+  margin-bottom: 30px;
 }
 
 .sponsors .sponsors-logo-container .sponsors-logo img {
@@ -502,17 +500,33 @@ section {
   color: #fff;
 }
 
+.grid-sizer,
+.grid-item {
+  width: 20%;
+}
+
+.grid-size-15 {
+  width: 18%;
+}
+
+.grid-size-25 {
+  width: 23%;
+}
+
+.grid-size-40 {
+  width: 40%;
+}
+
+.marg-top {
+  margin-top: 40px;
+}
+
 /*
  * Credits section
  */
 
 .credits {
   padding: 100px 0 130px;
-}
-
-.grid-sizer,
-.grid-item {
-  width: 32%;
 }
 
 .credits-wrapper.contributors {
