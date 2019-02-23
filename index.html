@@ -45,7 +45,6 @@ layout: default
     <div class="container">
         <h1 class="text-center">{{ homepage.sponsors.header }}</h1>
         <h2 class="sub-text text-center">{{ homepage.sponsors.sub-header }}</h2>
-        <!-- <div class="sponsors-logo-container grid"> -->
         <div class="sponsors-logo-container grid">
           <div class="grid-sizer"></div>
           {% for sp in homepage.sponsors.sponsor %}
@@ -56,6 +55,20 @@ layout: default
             </div>
           {% endfor %}
         </div>
+
+        <h2> {{ homepage.sponsors.supporters.header }} </h2>
+        <p> {{ homepage.sponsors.supporters.sub-header | markdownify}} </p>
+        <div class="supporters-logo-container grid">
+          <div class="grid-sizer"></div>
+          {% for sp in homepage.sponsors.supporters.supporter %}
+            <div class="supporters-logo grid-item {{ sp.grid_size }} {{ sp.extra_class }}">
+              <a href="{{ sp.url }}">
+                <img src="{{ sp.image }}" alt="{{ sp.name }}">
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+
         <div class="sponsorship-packet">
           <a target="_blank" href="{{ homepage.sponsors.sponsor-packet.url }}" class="sponsor-button"> {{ homepage.sponsors.sponsor-packet.title }} </a>
         </div>

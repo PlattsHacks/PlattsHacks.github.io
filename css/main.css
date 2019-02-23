@@ -24,6 +24,7 @@ body {
 section {
   overflow-x:hidden;
 }
+
 /*
  * Nav bar
  */
@@ -412,7 +413,6 @@ section {
 
 .sponsors .sponsors-logo-container {
   display: block;
-  padding-bottom: 50px;
 }
 
 .sponsors .sponsors-logo-container .sponsors-logo {
@@ -422,7 +422,8 @@ section {
   margin-bottom: 30px;
 }
 
-.sponsors .sponsors-logo-container .sponsors-logo img {
+.sponsors .sponsors-logo-container .sponsors-logo img,
+.supporters-logo-container .supporters-logo img {
   width: 100%;
 }
 
