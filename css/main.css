@@ -507,15 +507,15 @@ section {
 }
 
 .grid-size-15 {
-  width: 18%;
+  width: 20%;
 }
 
 .grid-size-25 {
   width: 23%;
 }
 
-.grid-size-40 {
-  width: 40%;
+.grid-size-60 {
+  width: 60%;
 }
 
 .marg-top {
