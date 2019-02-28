@@ -53,12 +53,12 @@ homepage:
     sub-header: ""
     sponsor:
       # extra class: provide extra proper margin
-      # currently available: .marg-top
+      # currently available: .marg-top, .smaller-img
       - name: "Insum"
         image: "/images/sponsors/insum.png"
         url: "https://insum.ca/"
-        grid_size: "grid-size-60"
-        extra_class: ""
+        grid_size: "grid-size-100"
+        extra_class: "smaller-img"
       - name: "DAE"
         image: "/images/sponsors/DAE.png"
         url: "https://www.thedae.com/"
