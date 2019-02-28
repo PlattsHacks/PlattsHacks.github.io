@@ -514,12 +514,16 @@ section {
   width: 23%;
 }
 
-.grid-size-60 {
-  width: 60%;
+.grid-size-100 {
+  width: 100%;
 }
 
 .marg-top {
   margin-top: 40px;
+}
+
+.smaller-img img {
+  width: 50% !important;
 }
 
 /*
@@ -607,6 +611,14 @@ section {
 
   .faq .grid-container:last-child .question:last-child {
     border-bottom: none;
+  }
+
+  .supporters-logo-container img {
+    width: 50% !important;
+  }
+
+  .sponsors-logo-container img {
+    width: 50% !important;
   }
 }
 
