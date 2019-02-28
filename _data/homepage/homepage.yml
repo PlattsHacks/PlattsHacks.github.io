@@ -82,13 +82,19 @@ homepage:
 
     supporters:
       header: "And our supporters!"
-      sub-header: >
-        Thank you to [**Mozilla**](https://www.mozilla.org/en-US/) for providing us with swag!
+      sub-header: ""
+      #   Thank you to [**Mozilla**](https://www.mozilla.org/en-US/) for providing us with swag!
       supporter:
+        - name: "Mozilla"
+          image: "/images/sponsors/mozilla.png"
+          url: "/"
+          grid_size: "grid-size-15"
+          extra_class: "marg-top"
         - name: "Film club"
           image: "/images/sponsors/filmclub.png"
           url: "/"
           grid_size: "grid-size-15"
+          extra_class: ""
     sponsor-packet:
       url: "https://drive.google.com/open?id=1rj-3JaL28ovJQ2tkgrtcqITTuMsLezUe"
       title: "Sponsorship packet"
