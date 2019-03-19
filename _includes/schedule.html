@@ -1,0 +1,23 @@
+{% assign homepage = site.data.homepage.homepage.homepage %}
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Day</th>
+      <th scope="col">Time</th>
+      <th scope="col">Event</th>
+      <th scope="col">Room</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    {% for event in homepage.schedule %}
+      <tr>
+        <th scope="row">{{ event.day }}</th>
+        <td>{{ event.time }}</td>
+        <td>{{ event.event }}</td>
+        <td>{{ event.room }}</td>
+      </tr>
+    {% endfor %}\
+  </tbody>
+</table>
