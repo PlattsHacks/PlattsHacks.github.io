@@ -595,6 +595,10 @@ section {
   padding: 100px 0 130px 0;
 }
 
+.news a {
+  color: inherit;
+}
+
 .news a:hover {
   text-decoration: none;
 }
