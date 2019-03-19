@@ -53,7 +53,7 @@ homepage:
     sub-header: ""
     sponsor:
       # extra class: provide extra proper margin
-      # currently available: ., .smaller-img
+      # currently available: .marg-top, .smaller-img
       - name: "Insum"
         image: "/images/sponsors/insum.png"
         url: "https://insum.ca/"
