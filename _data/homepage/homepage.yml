@@ -5,7 +5,11 @@ homepage:
   #   color:  "white" # "white", "black", "gray", "red", "blue" or "yellow"
   about:
     header: "What is PlattsHacks?"
-    description: "PlattsHacks is a hackathon hosted at State University of New York at Plattsburgh. Join us for 24 hours of programming, music, great food, and professor presentations."
+    description: >
+      PlattsHacks is a hackathon hosted at State University of New York at Plattsburgh. Join us for 24 hours of programming, music, great food, and professor presentations.
+
+
+      [Check out our news!]()
 
 
   info:
