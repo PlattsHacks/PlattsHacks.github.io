@@ -53,7 +53,7 @@ homepage:
     sub-header: ""
     sponsor:
       # extra class: provide extra proper margin
-      # currently available: .marg-top, .smaller-img
+      # currently available: ., .smaller-img
       - name: "Insum"
         image: "/images/sponsors/insum.png"
         url: "https://insum.ca/"
@@ -68,12 +68,12 @@ homepage:
         image: "/images/sponsors/ixis.png"
         url: "https://ixisdigital.com/"
         grid_size: "grid-size-15"
-        extra_class: "marg-top"
+        extra_class: ""
       - name: "CCT"
         image: "/images/sponsors/CCT.png"
         url: "https://bit.ly/2D3FnN4"
         grid_size: "grid-size-15"
-        extra_class: "marg-top"
+        extra_class: ""
       - name: "Software Engineering Club at Plattsburgh"
         image: "/images/sponsors/SEC.jpg"
         url: "https://www.facebook.com/plattsec/"
@@ -89,7 +89,7 @@ homepage:
           image: "/images/sponsors/mozilla.png"
           url: "/"
           grid_size: "grid-size-15"
-          extra_class: "marg-top"
+          extra_class: ""
         - name: "Film club"
           image: "/images/sponsors/filmclub.png"
           url: "/"

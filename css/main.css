@@ -415,11 +415,12 @@ section {
   display: block;
 }
 
-.sponsors .sponsors-logo-container .sponsors-logo {
+.sponsors .sponsors-logo-container .sponsors-logo,
+.supporters-logo-container .supporters-logo {
   position: relative;
   text-align: center;
   display: inline-block;
-  margin-bottom: 30px;
+  margin: 0 15px 30px 15px;
 }
 
 .sponsors .sponsors-logo-container .sponsors-logo img,
