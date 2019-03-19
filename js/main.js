@@ -68,7 +68,7 @@
     scrollInit();
     mmenu();
     loadBackground();
-    masonryInit();
+    // masonryInit();
   });
 
 })(jQuery);
