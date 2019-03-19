@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+{% assign news = site.data.news.news.news %}
+
+<section class="news">
+  <div class="container">
+    <h1 class="news-title"> {{ news.title }} </h1>
+
+    {% for post in site.posts %}
+      <li class="news-list">
+        <div class="news-container">
+          <a href="{{ post.url }}" class="news-url">
+            <div class="news-inner-wrapper">
+              <div>
+								<h3>{{ post.title }}</h3>
+							</div>
+              <hr />
+              <p>
+                {{ post.excerpt | strip_html }}
+              </p>
+            </div>
+					</a>
+        </div>
+      </li>
+    {% endfor %}
+  </div>
+</section>

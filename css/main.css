@@ -263,6 +263,12 @@ section {
   text-transform: uppercase;
 }
 
+.about a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 /*
  * Info Section
  */
@@ -579,6 +585,43 @@ section {
   text-align: center;
   padding-top: 40px;
 }
+
+
+/*
+ * News section
+ */
+
+.news {
+  padding: 100px 0 130px 0;
+}
+
+.news a {
+  color: inherit;
+}
+
+.news a:hover {
+  text-decoration: none;
+}
+
+.news-title {
+  padding: 20px 0;
+}
+
+.news .news-list {
+  list-style-type: none;
+  padding: 50px;
+  border: 1px solid #333;
+  margin-bottom: 50px;
+}
+
+/*
+ * Single post section
+ */
+
+.posts {
+  padding: 100px 0 130px 0;
+}
+
 
 @media(max-width: 1024px) and (min-width: 768px) {
   .info .item .row .first-col,
