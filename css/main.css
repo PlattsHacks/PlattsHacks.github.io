@@ -226,6 +226,11 @@ section {
   margin-right: 10px;
 }
 
+#demo {
+  font-size: 90px;
+  color: #d44b7d;
+}
+
 /*
  * About Section
  */
