@@ -14,13 +14,14 @@
         <h3> {{ hero.deadline }} </h3>
 
         <div>
-
+          <!-- this is some copied code!! Source: w3school -->
           <!-- Display the countdown timer in an element -->
           <p id="demo"></p>
+          <p id="demo2"></p>
 
           <script>
           // Set the date we're counting down to
-          var countDownDate = new Date("Mar 31, 2019 8:30:00").getTime();
+          var countDownDate = new Date("Mar 31, 2018 8:30:00").getTime();
 
           // Update the count down every 1 second
           var x = setInterval(function() {
@@ -44,7 +45,8 @@
             // If the count down is finished, write some text
             if (distance < 0) {
               clearInterval(x);
-              document.getElementById("demo").innerHTML = "EXPIRED";
+              document.getElementById("demo2").innerHTML = "Time's up! Submit your project <a href='https://docs.google.com/forms/d/e/1FAIpQLSeGwjxmQxcN6m24DHXaP4KeLFvswmxwragJW-xm4SSBChmTCQ/viewform?usp=sf_link'>here</a>";
+              document.getElementById("demo").innerHTML = ""
             }
           }, 1000);
           </script>

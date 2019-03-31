@@ -231,6 +231,16 @@ section {
   color: #d44b7d;
 }
 
+#demo2 {
+  font-size: 40px;
+  color: #d44b7d;
+}
+
+#demo2 a {
+  color: #d44b7d;
+  text-decoration: underline;
+}
+
 /*
  * About Section
  */
