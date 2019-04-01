@@ -4,13 +4,13 @@ hero:
   description: >
     Thank you for coming to Plattshacks 2019. We look forward to seeing you in 2020!
   date: >
-    Date: 30th-31st March 2019
+
   location: >
-    Yokum Hall, Plattsburgh, NY US
+
   deadline: >
 
-  links:
-    - text: "Apply"
-      href: "https://fs30.formsite.com/CASplattsburgh/mxly6jdd7i/index.html"
-    - text: "Sponsor"
-      href: "mailto:plattshack@gmail.com"
+  # links:
+  #   - text: "Apply"
+  #     href: "https://fs30.formsite.com/CASplattsburgh/mxly6jdd7i/index.html"
+  #   - text: "Sponsor"
+  #     href: "mailto:plattshack@gmail.com"
