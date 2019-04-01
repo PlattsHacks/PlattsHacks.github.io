@@ -13,8 +13,12 @@
         <!-- <h3 rel="location">{{ hero.date }} &mdash; {{ hero.location }}</h3> -->
         <h3> {{ hero.deadline }} </h3>
 
+        {% comment %}
+        <!-- This is the counter for the hackathon time -->
         {% include timer.html %}
+        {% endcomment %}
 
+        <!-- NOTE: This code is for applying/sponsoring buttons -->
         <!-- <div class="buttons">
           {% for link in hero.links %}
             {% if link.href %}
