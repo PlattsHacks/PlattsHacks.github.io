@@ -7,39 +7,6 @@ layout: default
 
 {% include posthack-hero.html %}
 
-<section class="about">
-    <div class="container">
-        <div class="col-xs-12 col-sm-offset-1 text-center">
-            <h1>
-                {{ homepage.about.header }}
-            </h1>
-            <p>
-                {{ homepage.about.description | markdownify }}
-            </p>
-        </div>
-    </div>
-</section>
-
-<section class="info">
-    <div class="items row">
-        <div class="item">
-            <div class="row">
-                <div class="col-md-4 col-sm-12 first-col">
-                  <h1>{{ homepage.info.section_1.title }}</h1>
-                  <p>{{ homepage.info.section_1.description }}</p>
-                </div>
-                <div class="col-md-4 col-sm-12 second-col">
-                  <h1>{{ homepage.info.section_2.title }}</h1>
-                  <p>{{ homepage.info.section_2.description }}</p>
-                </div>
-                <div class="col-md-4 col-sm-12 third-col">
-                  <h1>{{ homepage.info.section_3.title }}</h1>
-                  <p>{{ homepage.info.section_3.description }}</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="sponsors" id="sponsors">
     <div class="container">
@@ -71,55 +38,6 @@ layout: default
 
         <div class="sponsorship-packet">
           <a target="_blank" href="{{ homepage.sponsors.sponsor-packet.url }}" class="sponsor-button"> {{ homepage.sponsors.sponsor-packet.title }} </a>
-        </div>
-    </div>
-</section>
-
-<section class="faq">
-    <div class="container">
-        <h1 class="text-center">FAQ</h1>
-        <div>
-            {% for row in homepage.faq %}
-              <div class="grid-container">
-                  {% for item in row %}
-                      <div class="question grid-50 grid-tablet-50 grid-mobile-100">
-                          <h2>{{ item.question }}</h2>
-                          <hr>
-                          {{ item.answer | markdownify }}
-                      </div>
-                  {% endfor %}
-              </div>
-            {% endfor %}
-        </div>
-    </div>
-</section>
-
-<section class="schedule">
-    <div class="">
-        <h1 class="text-center">Schedule</h1>
-        <p class="text-center"></p>
-        <div>
-          {% include schedule.html %}
-        </div>
-    </div>
-</section>
-
-<section class="slack">
-  <div class="container">
-    <h1 class="text-center">{{ homepage.slack.title }}</h1>
-    <div class="slack-button">
-      <a href="https://plattshacks.slack.com/"><img src="https://api.slack.com/img/sign_in_with_slack.png" /></a>
-    </div>
-  </div>
-</section>
-
-<section class="location">
-    <div class="container">
-        <h1 class="text-center">Location</h1>
-        <div class="row">
-            <div class="map-container col-xs-12 col-sm-8 col-sm-offset-2">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2836.239154362774!2d-73.46921128446812!3d44.69431607909945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cca4758ad72ba25%3A0x72f2820ae0dbf351!2sYokum+Communications%2FLecture+Hall!5e0!3m2!1sen!2sus!4v1525704526634" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
         </div>
     </div>
 </section>
