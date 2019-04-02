@@ -245,6 +245,11 @@ section {
  * Posthack hero
  */
 
+.posthack-hero {
+  position: relative;
+  overflow: hidden;
+}
+
 /*
  * About Section
  */
