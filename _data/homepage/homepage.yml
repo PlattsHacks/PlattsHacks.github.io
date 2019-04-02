@@ -53,7 +53,7 @@ homepage:
     title: "Join our Slack channel to form your team, meet other hackers and get more information about the event!"
 
   sponsors:
-    header: "A Huge Thanks to our Sponsors!"
+    header: "We would like to give a special thanks to our sponsors and supporters. PlattsHacks 2019 could not happen without them :)"
     sub-header: ""
     sponsor:
       # extra class: provide extra proper margin
@@ -86,6 +86,16 @@ homepage:
       - name: "CCT"
         image: "/images/sponsors/CCT.png"
         url: "https://bit.ly/2D3FnN4"
+        grid_size: "grid-size-15"
+        extra_class: ""
+      - name: "Mozilla"
+        image: "/images/sponsors/mozilla.png"
+        url: "/"
+        grid_size: "grid-size-15"
+        extra_class: ""
+      - name: "Film club"
+        image: "/images/sponsors/filmclub.png"
+        url: "/"
         grid_size: "grid-size-15"
         extra_class: ""
 
