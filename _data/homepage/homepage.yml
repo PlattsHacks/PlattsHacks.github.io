@@ -180,6 +180,16 @@ homepage:
       event: "Closing Ceremony"
       room: "Yokum 200"
 
+  hackathon_images:
+    - src: "images/2019/1.jpg"
+      alt:
+    - src: "images/2019/2.jpg"
+      alt:
+    - src: "images/2019/3.jpg"
+      alt:
+
+
+
   register:
     message: >
       You'll receive more information closer to the hackathon.

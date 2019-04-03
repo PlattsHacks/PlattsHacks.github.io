@@ -480,6 +480,24 @@ section {
 }
 
 /*
+ * Hackathon images section
+ */
+
+.hackathon-images {
+  padding: 80px 0;
+}
+
+.hackathon-images h1 {
+  padding: 20px 0;
+}
+
+.hackathon-images img {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+/*
  * Location Section
  */
 

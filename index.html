@@ -25,12 +25,16 @@ layout: default
     </div>
 </section>
 
-<section>
+<section class="hackathon-images">
   <div class="container">
     <h1 class="text-center"> Plattshacks 2019 </h1>
 
     <div>
-
+      {% for image in homepage.hackathon_images %}
+        <a href="#" data-featherlight="{{ image.src }}">
+          <img src="{{ image.src }}" alt="{{ image.alt }}" class="img-thumbnail hackathon-image grid-25 tablet-grid-33 mobile-grid-50">
+        </a>
+      {% endfor %}
     </div>
   </div>
 </section>
