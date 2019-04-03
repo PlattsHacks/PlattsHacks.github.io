@@ -491,11 +491,14 @@ section {
   padding: 20px 0;
 }
 
-.hackathon-images img {
-  margin-left: 5px;
-  margin-right: 5px;
+.hackathon-image-grid {
+  display: flex;
+  flex-flow: row wrap;
 }
 
+.hackathon-image-wrapper {
+  margin-bottom: 10px;
+}
 
 /*
  * Location Section

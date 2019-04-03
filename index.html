@@ -29,11 +29,13 @@ layout: default
   <div class="container">
     <h1 class="text-center"> Plattshacks 2019 </h1>
 
-    <div>
+    <div class="hackathon-image-grid">
       {% for image in homepage.hackathon_images %}
-        <a href="#" data-featherlight="{{ image.src }}">
-          <img src="{{ image.src }}" alt="{{ image.alt }}" class="img-thumbnail hackathon-image grid-25 tablet-grid-33 mobile-grid-50">
-        </a>
+        <div class="hackathon-image-wrapper grid-25 tablet-grid-33 mobile-grid-50">
+          <a href="#" class="hackathon-image-url" data-featherlight="{{ image.src }}">
+            <img src="{{ image.src }}" alt="{{ image.alt }}" class="img-thumbnail hackathon-image">
+          </a>
+        </div>
       {% endfor %}
     </div>
   </div>
