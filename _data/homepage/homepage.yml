@@ -255,6 +255,21 @@ homepage:
         team: "Champlain College"
         image: "images/2019/winners/CTF.jpg"
         alt:
+    organizers:
+      - name: "Dr. Delbert Hart - Chair of Computer Science Dept at SUNY Plattsburgh"
+      - name: "MaryNell Bockman - CAS Conference Services Director"
+      - name: "Paula Bachman - Associate Director of Annual Giving at SUNY Plattsburgh"
+      - name: "David Gregoire - Assistant Vice President for Institutional Advancement"
+      - name: "Jacob Avery"
+      - name: "Prithaj Nath"
+      - name: "Prof. Cristian Balan - Director of Center for Cybersecurity and Technology"
+      - name: "Tyler Whitney"
+      - name: "Central Heating Plant at SUNY Plattsburgh"
+      - name: "SUNY Plattsburgh University Police"
+      - name: "Mr. Silvanus"
+      - name: "Said Haroon Tahmas - Our graphic designer"
+      - name: "Fixed Fate - our performer"
+      - name: "Cameron Gonzales - Our PR man and photographer"
 
   register:
     message: >

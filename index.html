@@ -59,3 +59,12 @@ layout: default
     </div>
   </div>
 </section>
+
+<section class="hackathon-credits">
+  <div class="container">
+    <h1 class="text-center">Special thanks to people who helped organize PlattsHacks 2019</h1>
+    {% for organizer in homepage.posthack.organizers %}
+      <p class="text-center"> {{ organizer.name }} </p>
+    {% endfor %}
+  </div>
+</section>
