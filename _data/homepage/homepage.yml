@@ -251,6 +251,10 @@ homepage:
         team: "hackerMen"
         image: "images/2019/winners/most-technical.jpg"
         alt:
+      - title: "Capture the Flag"
+        team: "Champlain College"
+        image: "images/2019/winners/CTF.jpg"
+        alt:
 
   register:
     message: >
