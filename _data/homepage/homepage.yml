@@ -233,15 +233,15 @@ homepage:
     winners:
       - title: "1st place & Most favorite hack"
         team: "Evolution"
-        image: "images/2019/winners/1st.jpg"
+        image: "images/2019/winners/1st.JPG"
         alt:
       - title: "2nd place"
         team: "PlattsOn"
-        image: "images/2019/winners/2nd.jpg"
+        image: "images/2019/winners/2nd.JPG"
         alt:
       - title: "3rd place"
         team: "Potter"
-        image: "images/2019/winners/3rd.jpg"
+        image: "images/2019/winners/3rd.JPG"
         alt:
       - title: "Best first hack"
         team: "Multiplayer Text-Based Game"
