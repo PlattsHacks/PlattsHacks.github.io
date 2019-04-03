@@ -25,12 +25,31 @@ layout: default
     </div>
 </section>
 
+<section class="hackathon-winners">
+  <div class="container">
+    <h1 class="text-center"> We would like to present our winners this 2019!</h1>
+    <div class="hackathon-winners-container">
+      {% for winner in homepage.posthack.winners %}
+        <div class="hackathon-image-wrapper grid-33 tablet-grid-50 mobile-grid-100">
+          <a href="#" class="hackathon-image-url" data-featherlight="{{ winner.image }}">
+            <img src="{{ winner.image }}" alt="{{ winner.alt }}" class="img-thumbnail hackathon-image">
+          </a>
+          <div class="hackathon-winners-text">
+            <h3 class="text-center"> {{ winner.title }} </h3>
+            <p class="text-center"> Team: {{ winner.team }} </p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 <section class="hackathon-images">
   <div class="container">
     <h1 class="text-center"> Plattshacks 2019 </h1>
 
     <div class="hackathon-image-grid">
-      {% for image in homepage.hackathon_images %}
+      {% for image in homepage.posthack.hackathon_images %}
         <div class="hackathon-image-wrapper grid-25 tablet-grid-33 mobile-grid-50">
           <a href="#" class="hackathon-image-url" data-featherlight="{{ image.src }}">
             <img src="{{ image.src }}" alt="{{ image.alt }}" class="img-thumbnail hackathon-image">

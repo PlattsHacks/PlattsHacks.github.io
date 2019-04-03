@@ -483,17 +483,24 @@ section {
  * Hackathon images section
  */
 
-.hackathon-images {
+.hackathon-images,
+.hackathon-winners {
   padding: 80px 0;
 }
 
-.hackathon-images h1 {
-  padding: 20px 0;
+.hackathon-images h1,
+.hackathon-winners h1 {
+  padding: 0 0 30px 0;
 }
 
-.hackathon-image-grid {
+.hackathon-image-grid,
+.hackathon-winners-container {
   display: flex;
   flex-flow: row wrap;
+}
+
+.hackathon-winners-container .hackathon-winners-text {
+  padding: 15px 30px;
 }
 
 .hackathon-image-wrapper {
