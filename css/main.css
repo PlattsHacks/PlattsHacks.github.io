@@ -245,6 +245,11 @@ section {
  * Posthack hero
  */
 
+.posthack-hero {
+  position: relative;
+  overflow: hidden;
+}
+
 /*
  * About Section
  */
@@ -475,6 +480,27 @@ section {
 }
 
 /*
+ * Hackathon images section
+ */
+
+.hackathon-images {
+  padding: 80px 0;
+}
+
+.hackathon-images h1 {
+  padding: 20px 0;
+}
+
+.hackathon-image-grid {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.hackathon-image-wrapper {
+  margin-bottom: 10px;
+}
+
+/*
  * Location Section
  */
 
@@ -549,7 +575,7 @@ section {
 }
 
 .smaller-img img {
-  width: 50% !important;
+  width: 35% !important;
 }
 
 /*

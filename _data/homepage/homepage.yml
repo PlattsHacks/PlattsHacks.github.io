@@ -53,7 +53,7 @@ homepage:
     title: "Join our Slack channel to form your team, meet other hackers and get more information about the event!"
 
   sponsors:
-    header: "A Huge Thanks to our Sponsors!"
+    header: "We would like to give a special thanks to our sponsors and supporters. PlattsHacks 2019 could not happen without them :)"
     sub-header: ""
     sponsor:
       # extra class: provide extra proper margin
@@ -86,6 +86,16 @@ homepage:
       - name: "CCT"
         image: "/images/sponsors/CCT.png"
         url: "https://bit.ly/2D3FnN4"
+        grid_size: "grid-size-15"
+        extra_class: ""
+      - name: "Mozilla"
+        image: "/images/sponsors/mozilla.png"
+        url: "/"
+        grid_size: "grid-size-15"
+        extra_class: ""
+      - name: "Film club"
+        image: "/images/sponsors/filmclub.png"
+        url: "/"
         grid_size: "grid-size-15"
         extra_class: ""
 
@@ -169,6 +179,56 @@ homepage:
       time: "10:30am - 11:30am"
       event: "Closing Ceremony"
       room: "Yokum 200"
+
+  hackathon_images:
+    - src: "images/2019/1.jpg"
+      alt:
+    - src: "images/2019/2.jpg"
+      alt:
+    - src: "images/2019/3.jpg"
+      alt:
+    - src: "images/2019/4.jpg"
+      alt:
+    - src: "images/2019/5.jpg"
+      alt:
+    - src: "images/2019/6.jpg"
+      alt:
+    - src: "images/2019/7.jpg"
+      alt:
+    - src: "images/2019/8.jpg"
+      alt:
+    - src: "images/2019/9.jpg"
+      alt:
+    - src: "images/2019/10.jpg"
+      alt:
+    - src: "images/2019/11.jpg"
+      alt:
+    - src: "images/2019/12.jpg"
+      alt:
+    - src: "images/2019/13.jpg"
+      alt:
+    - src: "images/2019/14.jpg"
+      alt:
+    - src: "images/2019/15.jpg"
+      alt:
+    - src: "images/2019/16.jpg"
+      alt:
+    - src: "images/2019/17.jpg"
+      alt:
+    - src: "images/2019/18.jpg"
+      alt:
+    - src: "images/2019/19.jpg"
+      alt:
+    - src: "images/2019/20.jpg"
+      alt:
+    - src: "images/2019/21.jpg"
+      alt:
+    - src: "images/2019/22.jpg"
+      alt:
+    - src: "images/2019/23.jpg"
+      alt:
+    - src: "images/2019/24.jpg"
+      alt:
 
   register:
     message: >
