@@ -64,7 +64,7 @@ layout: default
   <div class="container">
     <h1 class="text-center">Special thanks to people who helped organize PlattsHacks 2019</h1>
     {% for organizer in homepage.posthack.organizers %}
-      <p class="text-center"> {{ organizer.name }} </p>
+      {{ organizer.name | markdownify }}
     {% endfor %}
   </div>
 </section>

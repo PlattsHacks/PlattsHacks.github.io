@@ -492,6 +492,10 @@ section {
   padding: 80px 0;
 }
 
+.hackathon-credits p {
+  text-align: center;
+}
+
 .hackathon-images h1,
 .hackathon-winners h1,
 .hackathon-credits h1 {
