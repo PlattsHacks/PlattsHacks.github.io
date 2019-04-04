@@ -484,7 +484,10 @@ section {
  */
 
 .hackathon-images,
-.hackathon-winners,
+.hackathon-winners {
+  padding: 80px 0 0 0;
+}
+
 .hackathon-credits {
   padding: 80px 0;
 }
